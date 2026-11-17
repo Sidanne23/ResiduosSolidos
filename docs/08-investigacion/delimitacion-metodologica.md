@@ -1,0 +1,11 @@
+# Delimitación metodológica y evaluación posterior
+
+La investigación de López Castillo, Dueñas Herrada y Briceño Contreras (2026), suministrada como artículo PDF y DOCX, es documental aplicada, cuantitativa descriptiva, no experimental y tecnológicamente propositiva. Examina publicaciones 2024–2026 con consulta cerrada el 7 de noviembre de 2026. Su selección intencional de documentos no constituye censo de registros municipales ni estudio causal.
+
+Las unidades de observación son registros o indicadores publicados y las filas del cuadro de rutas. Se conserva procedencia, proceso, territorio, unidad, operador y precisión temporal. Las fórmulas presupuestarias y de distribución no prueban eficiencia ambiental ni unicidad de participantes. Los límites de acceso MINAM y las discrepancias se conservan; no se subsanan con información ajena al corpus autorizado.
+
+La entrega de Fase 1 aporta artefactos de ingeniería y una reproducción aritmética independiente. No transforma en ejecutados los componentes MySQL/Power BI propuestos en el artículo ni demuestra uso institucional. Los resultados técnicos futuros deberán describirse según su ejecución: implementado localmente, probado en entorno controlado, propuesto o pendiente. La evidencia de una prueba de software no se presentará como resultado ambiental.
+
+Una evaluación institucional posterior requiere autorización, responsables de datos, línea base y un piloto. Puede medir tiempo real de elaboración de reportes, conciliación de registros y consultas de indicadores bajo definiciones estables. Una evaluación de efectos ambientales necesita además intervenciones verificadas y control de cambios operativos. No se definen muestras, resultados, niveles de satisfacción o reducciones esperadas sin diseño y evidencia.
+
+Referencia del artículo recibido: López Castillo, J. A., Dueñas Herrada, A., & Briceño Contreras, S. L. (2026). *Inteligencia ambiental basada en Inteligencia de negocio para el análisis de la gestión de residuos sólidos en la Municipalidad Distrital de Amarilis, Huánuco* [Artículo suministrado por el usuario]. No se atribuye DOI, revista, aceptación editorial o publicación que los archivos no acreditan. Las referencias originales y sus enlaces permanecen en el artículo y en el Markdown adjunto; no se afirma haberlas revalidado en esta sesión.

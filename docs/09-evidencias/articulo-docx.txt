@@ -1,0 +1,240 @@
+ARTÍCULO 
+Inteligencia ambiental basada en Inteligencia de negocio para el análisis de la gestión de residuos sólidos en la Municipalidad Distrital de Amarilis, Huánuco
+Environmental Intelligence Based on Business Intelligence for Municipal Solid Waste Management Analysis in Amarilis, Huánuco
+Jean Andrés López Castillo¹, Alexander Dueñas Herrada¹ y Sidanne Luis Briceño Contreras¹
+¹ Universidad de Huánuco, Escuela Profesional de Ingeniería de Sistemas e Informática, Huánuco, Perú.
+Estudio documental de fuentes públicas de 2024–2026. Consulta de fuentes: 7 de noviembre de 2026.
+
+RESUMEN
+Objetivo. Analizar la gestión de residuos sólidos de Amarilis mediante información pública e integrar sus indicadores en una arquitectura de inteligencia ambiental basada en Business Intelligence. Métodos. Se realizó un estudio documental aplicado, cuantitativo descriptivo y no experimental. Se examinaron rendiciones municipales de 2024, 2025 y 2026 y el plan EDUCCA de 2026. Se extrajeron registros con unidad, período, proceso y procedencia; se verificaron tablas y se calcularon indicadores presupuestarios y de participación. Se elaboraron un conjunto tabular, gráficos y un modelo dimensional. Resultados. La rendición de 2024 declaró 99 % de cobertura. El cuadro de segregación comprendió 11 rutas y 1 308 registros de participantes. La ejecución de recolección y transporte fue 62,85 %, con una diferencia aritmética de S/ 1 458 432,88 respecto de la asignación. Para el primer semestre de 2025, la ejecución del programa presupuestal 0036 alcanzó 48,15 %. Los documentos distinguieron valorización y recolección selectiva, impidiendo estimar una tendencia conjunta. Se identificaron discrepancias de período y conciliación, y se diseñaron tres vistas analíticas con trazabilidad. Conclusiones. La evidencia permite describir recursos e indicadores específicos, pero requiere homologar cortes y denominadores para evaluar desempeño. La arquitectura ETL, MySQL y Power BI organiza esa integración; su efecto operativo deberá comprobarse mediante una implementación y evaluación institucional.
+Palabras clave: Business Intelligence; inteligencia ambiental; gestión de residuos sólidos; indicadores ambientales; toma de decisiones; Amarilis.
+
+ABSTRACT
+Objective. To analyze solid waste management in Amarilis using public information and integrate its indicators into an environmental intelligence architecture based on Business Intelligence. Methods. An applied documentary, quantitative descriptive, non-experimental study was conducted. Municipal accountability reports for 2024, 2025 and 2026 and the 2026 EDUCCA plan were examined. Records were extracted with their units, periods, processes and provenance; tables were checked and budget and participation indicators were calculated. A tabular dataset, charts and a dimensional model were developed. Results. The 2024 report declared 99% collection coverage. The segregation table included 11 routes and 1,308 participant records. Budget execution for collection and transport was 62.85%, with an arithmetic difference of S/ 1,458,432.88 relative to the allocation. For the first half of 2025, execution of budget program 0036 reached 48.15%. The documents distinguished recovery from selective collection, preventing estimation of a combined trend. Period and reconciliation discrepancies were identified, and three analytical views with traceability were designed. Conclusions. The evidence describes specific resources and indicators, but reporting periods and denominators must be harmonized before performance can be assessed. The ETL, MySQL and Power BI architecture structures this integration; its operational effects require institutional implementation and evaluation.
+Keywords: Business Intelligence; environmental intelligence; solid waste management; environmental indicators; decision making; Amarilis.
+
+INTRODUCCIÓN
+La gestión municipal de residuos exige relacionar continuidad del servicio, prevención de impactos y disponibilidad de recursos. El Programa de las Naciones Unidas para el Medio Ambiente (PNUMA, 2024) sitúa la reducción de residuos y la recuperación de materiales entre las decisiones necesarias frente al crecimiento mundial de la generación, el análisis de información adquiere relevancia porque permite conocer qué actividades se ejecutan, dónde ocurren y qué evidencia respalda sus resultados.
+En el Perú, el Ministerio del Ambiente (MINAM, 2025) informó una generación nacional de 8 994 762 toneladas durante 2024. El agregado expresa la escala del desafío, pero no constituye una medición de Amarilis. La información nacional debe conservar su nivel territorial y su fecha de consolidación cuando se utiliza para contextualizar una investigación distrital. Asimismo, las cantidades generadas, recolectadas, recuperadas y dispuestas representan operaciones diferentes dentro de una misma cadena de gestión.
+Business Intelligence integra preparación de datos, almacenamiento y consulta analítica para apoyar decisiones. En el ámbito ambiental, su aporte depende de que los indicadores mantengan definiciones estables y de que los responsables puedan verificar sus datos de origen, un tablero sin período, unidad o denominador puede facilitar una lectura rápida y, simultáneamente, inducir una conclusión equivocada. Por ello, la trazabilidad se incorpora aquí como una condición del análisis.
+Los antecedentes internacionales ofrecen criterios para delimitar esa condición. Sosunova y Porras (2022) organizaron los enfoques y los intercambios de información en sistemas inteligentes de residuos. Kannan et al. (2024) plantearon un marco integrado de tecnologías y actores. Gutierrez-Lopez et al. (2023) observaron la limitada incorporación de impactos sociales en modelos de decisión y propusieron considerar sostenibilidad y participación, estas contribuciones orientan el diseño, aunque no establecen un efecto medido para Amarilis.
+En el contexto peruano, Cotrina-Altamirano et al. (2024) estudiaron BI en decisiones estratégicas municipales. Pizango Tapullima (2024) evaluó un aplicativo para administración tributaria y reportó menores tiempos de elaboración de información y decisión en su contexto de estudio. Rosas Garibay (2024) utilizó información geográfica para examinar puntos y rutas de residuos en Ica, la transferencia pertinente consiste en adoptar procedimientos de integración, evaluación y localización, conservando las diferencias entre sectores y diseños de investigación.
+La monografía de López Castillo et al. (2026), base académica de este artículo, desarrolla una propuesta con zona original, ETL, MySQL, Data Warehouse y Power BI. Su revisión contempla también infraestructura compartida de Huánuco. Para el presente estudio, el ámbito se delimitó al distrito de Amarilis y se sustituyeron las expectativas de mejora por preguntas que pueden responderse con documentos públicos. No se atribuyeron al distrito masas de instalaciones compartidas ni resultados de otros municipios.
+El problema de investigación se formuló así: ¿qué indicadores de gestión de residuos pueden obtenerse de las publicaciones municipales y cómo estructurarlos para sustentar decisiones trazables? La revisión encontró información de diferente naturaleza: declaraciones de cobertura, cuadros de participantes, asignaciones presupuestarias, masas y descripciones de actividades, su heterogeneidad exige comprobar compatibilidad antes de calcular tasas o comparar años.
+El objetivo general fue analizar la gestión de residuos sólidos de la Municipalidad Distrital de Amarilis mediante información pública y establecer su integración en una arquitectura de inteligencia ambiental basada en BI, los objetivos específicos fueron examinar los indicadores disponibles, estructurar sus registros, desarrollar un análisis descriptivo y determinar las condiciones de uso del modelo para decisiones municipales, el aporte es un análisis documental reproducible y una arquitectura aplicada a sus necesidades de integración.
+
+MÉTODOS
+Tipo y ámbito del estudio
+Se efectuó una investigación documental aplicada, de enfoque cuantitativo descriptivo, diseño no experimental y componente tecnológico propositivo, el ámbito fue Amarilis, provincia y departamento de Huánuco, Perú. La ventana de búsqueda comprendió 2024–2026 y se cerró el 7 de noviembre de 2026. La unidad de observación fue cada registro o indicador publicado, acompañado de su contexto documental.
+Selección documental
+Se incluyeron tres resúmenes de rendición municipal y el plan EDUCCA 2026 por identificar al emisor, describir el ámbito distrital y aportar datos interpretables, los documentos se codificaron M24, M25, M26 y E26, la selección fue intencional por pertinencia y verificabilidad; no constituye un censo de registros internos ni una revisión sistemática de literatura.
+Se revisaron además el catálogo de valorización distrital del MINAM y reportes de control interno de 2025 y 2026, los recursos masivos del catálogo no pudieron descargarse y no se incorporaron sus registros. Los reportes de control no se trataron como evaluaciones POI o PEI, los planes institucionales localizados aportan programación y no prueban por sí mismos resultados ejecutados. Esta distinción evita completar series con metas.
+Extracción y normalización
+La ficha de extracción incluyó identificador, documento, año, indicador, valor, operador, unidad, período, localizador y observación, se transcribieron tablas y se contrastaron visualmente los cuadros insertados como imagen. En M24 se revisó la página 29 del PDF; en M26 se comprobaron las páginas 104 y 106. La numeración corresponde al archivo PDF y puede diferir de sus rótulos impresos.
+La base conservó el valor publicado y separó los cálculos. Se normalizó la notación decimal y se mantuvo el operador «más de» como desigualdad estricta. Los logros repetidos dentro de un documento se registraron una sola vez, las rutas de segregación se almacenaron como once filas independientes, el conjunto resultante comprende 41 registros cuantitativos y 11 filas de rutas, sin representar observaciones de campo.
+Definiciones y cálculo
+Se distinguió generación de recolección, segregación, valorización y disposición final. Una declaración de cobertura se clasificó como porcentaje reportado cuando no se publicaron sus componentes. Un dato de masa requirió proceso y corte compatibles para entrar en una comparación. Se emplearon las siguientes expresiones:
+Ejecución presupuestaria = ejecutado / asignado × 100. En M25, el denominador es el PIM del PP 0036.
+Diferencia al corte = asignado − ejecutado. Describe una resta contable; no demuestra ahorro ni disponibilidad legal.
+Participación de una ruta = registros de esa ruta / suma de registros del cuadro × 100. No mide cobertura poblacional.
+Erradicación documentada = puntos erradicados / puntos identificados × 100, para el mismo estado y corte.
+Análisis y diseño tecnológico
+Se ejecutaron sumas, cocientes y verificaciones aritméticas mediante un procesamiento reproducible. El Excel conserva fórmulas editables. Las figuras se elaboraron con las cifras extraídas y la arquitectura se desarrolló a partir de la monografía y del modelado dimensional descrito por Microsoft (s. f.). No se estimaron significancia, causalidad ni modelos predictivos. MySQL y Power BI corresponden al diseño de integración; no se instaló un sistema municipal ni se realizaron pruebas con funcionarios.
+
+RESULTADOS
+Arquitectura de inteligencia ambiental
+La revisión se tradujo en una arquitectura que separa el archivo original, el procesamiento y la lectura de indicadores. La Figura 1 representa la estructura propuesta y el recorrido de las excepciones. El prototipo ejecutado abarcó extracción documental, normalización tabular, cálculos y visualización estática. La base MySQL y la conexión con Power BI permanecen como componentes de diseño, sin atribuirles un despliegue institucional.
+Figura 1. Arquitectura propuesta para integrar información ambiental de Amarilis
+
+Fuente: elaboración propia a partir de López Castillo et al. (2026), las fuentes analizadas y Microsoft (s. f.). Los registros operativos representan una entrada requerida para una implementación municipal.
+Granularidad y relaciones del modelo
+El Data Warehouse debe separar HechoIndicadorPublicado, HechoEjecuciónPresupuestaria y HechoParticipaciónRuta, sus granularidades son, respectivamente, indicador por documento y corte; actividad presupuestaria por corte; y ruta por cuadro publicado. Las dimensiones compartidas son Tiempo, Territorio, Fuente y Proceso. Ruta y TipoResiduo se incorporan solamente cuando la fuente permite identificarlos. Esta separación impide sumar un porcentaje de cobertura con una masa o repetir una asignación al cruzarla con once rutas.
+HechoIndicadorPublicado conserva valor, operador y unidad. Para el período se guardan inicio y fin únicamente cuando la fuente los declara; en los demás casos se utiliza una etiqueta del corte y un estado de precisión temporal, los indicadores no aditivos, como cobertura y porcentajes de ejecución, se presentan como valores al corte, en una serie de presupuestos acumulados se selecciona el último corte compatible y se evita sumar meses acumulativos.
+El ETL valida claves, unidades y duplicados antes de publicar las vistas analíticas, una fila con período ambiguo puede conservarse en el repositorio y quedar excluida de una tasa, las excepciones se vinculan al documento y a una explicación, de modo que la corrección posterior no borre la evidencia original, el diseño mantiene separados los registros municipales, la interpretación de los investigadores y la programación de actividades.
+
+Caracterización del servicio de recolección
+Tabla 1. Características documentadas del servicio municipal
+Registro
+Valor y alcance
+Fuente
+Cobertura declarada
+99 %; sin componentes para recalcular
+M24, p. 28
+Jornada reportada
+8 h; lunes a sábado, 05:00–13:00
+M24, p. 28
+Recursos adquiridos
+2 vehículos baranda; no equivale a flota total
+M24, p. 28
+Cuadro de segregación
+11 rutas de residuos inorgánicos
+M24, p. 29
+Organización operativa
+18 rutas de recolección; 34 de barrido
+M26, p. 104
+Flota operativa
+13 unidades: 9 compactadores, 3 volquetes y 1 baranda
+M26, p. 104
+Fuentes: Municipalidad Distrital de Amarilis (2024, 2026a). Cada fila mantiene el alcance del documento; las adquisiciones y las unidades operativas son categorías diferentes.
+Figura 2. Registros de participantes por ruta de segregación
+
+Fuente: elaboración propia con el cuadro de M24, p. 29. R01–R11 conservan el orden de la fuente. La suma es 1 308 registros; no acredita participantes únicos ni viviendas.
+La distribución del cuadro permite revisar la concentración de registros y organizar una verificación territorial. R08 y R01 reúnen 429 registros, equivalentes al 32,80 % del total tabulado, esta proporción describe el cuadro examinado. Para inferir participación ciudadana efectiva se necesitarían identificadores depurados, una población elegible y constancia de actividad durante el período.
+La cobertura publicada se mantuvo como declaración institucional, la ausencia de denominadores y desagregación territorial impide identificar sectores sin servicio o comprobar una mejora entre años, el número de rutas tampoco permite estimar su cumplimiento sin programación y evidencia de recorridos.
+
+Indicadores y segregación de residuos
+Tabla 2. Indicadores cuantitativos calculados y observados
+Indicador y fórmula
+Resultado y unidad
+Período y fuente
+Interpretación
+Registros del cuadro: Σ participantes
+1 308 registros
+Corte 2024; M24, p. 29
+Suma de filas; unicidad no acreditada
+Concentración R08 y R01: 429/1 308 × 100
+32,80 %
+Corte 2024; M24, p. 29
+Distribución interna del cuadro
+Ejecución recolección: 2 467 007,12 / 3 925 440 × 100
+62,85 %
+Corte 2024; M24, p. 29
+Avance financiero al corte
+Ejecución PP 0036: 2 526 147 / 5 246 557 × 100
+48,15 %
+Ene–jun 2025; M25, p. 20
+Programa más amplio que recolección
+Erradicación: 0/18 × 100
+0 %
+Corte 2025; M25, p. 52
+Estado del conjunto identificado
+Suma de masas declaradas por tipo: 358,4 + 257,5
+615,90 t
+Corte 2025; M25, p. 52
+Valorización; no tasa sobre generación
+Suma de umbrales: 235,78 + 26,49
+>262,27 t
+Ene–jun 2026; M26, p. 106
+Recolección selectiva; cota inferior
+Fuente: cálculos de los autores. Los porcentajes se redondean a dos decimales. La tabla no homologa procesos, poblaciones ni cortes de años diferentes.
+Figura 3. Masas declaradas según tipo de residuo y proceso
+
+Fuentes: M25, p. 52, y M26, p. 106. La referencia 2025 carece de desglose mensual; la de 2026 corresponde a los primeros seis meses. No se comparan como una serie homogénea.
+La separación de procesos condiciona la lectura ambiental: recibir material separado acredita recolección selectiva; probar valorización exige conocer tratamiento, aprovechamiento y destino, las masas de ambos documentos se conservaron con sus etiquetas. Se excluyeron tasas de recuperación sobre generación y variaciones interanuales porque no se recuperaron denominadores y cortes compatibles.
+El catálogo del MINAM (2026) identifica recursos distritales, pero la descarga de sus archivos no fue accesible durante la consulta. Sus cifras no se reconstruyeron a partir de noticias ni se reemplazaron por datos provinciales. El análisis cuantitativo utiliza exclusivamente las publicaciones municipales recuperadas.
+
+Análisis de recursos y presupuesto
+Tabla 3. Presupuestos y ejecución según actividad y corte
+Actividad y fuente
+Asignado o PIM S/
+Ejecutado S/
+Ejecución calculada
+Barrido y limpieza; M24, p. 29
+1 066 662,00
+738 794,84
+69,26 %
+Recolección y transporte; M24, p. 29
+3 925 440,00
+2 467 007,12
+62,85 %
+EDUCCA; M24, p. 29
+89 336,00
+83 222,05
+93,16 %
+PP 0036; ene–jun 2025; M25, p. 20
+5 246 557,00
+2 526 147,00
+48,15 %
+EDUCCA; plan anual 2026; E26
+48 110,00
+No publicado en el plan
+No calculable
+Fuentes: Municipalidad Distrital de Amarilis (2024, 2025, 2026b). M24 es una rendición parcial sin fecha específica del cuadro; no se presenta como cierre anual. El PP 0036 no equivale a la actividad de recolección. E26 es programación aprobada.
+Figura 4. Comparación del presupuesto asignado y ejecutado dentro de cada corte
+
+Fuente: elaboración propia. Se mantienen separados el cuadro de actividades de 2024 y el programa presupuestal de 2025; las barras no expresan una comparación homogénea de eficiencia.
+La diferencia de recolección y transporte en M24 fue S/ 1 458 432,88. Para el PP 0036 de M25, la resta entre PIM y ejecución produjo S/ 2 720 410,00. Estos importes permiten revisar el avance presupuestario documentado, pero no informan por sí solos sobre obligaciones devengadas posteriores, calidad del servicio o capacidad para realizar nuevas contrataciones.
+La recomputación detectó una diferencia en EDUCCA 2024: el cuadro publica 93,14 %, mientras que sus importes producen 93,1562 %, redondeado a 93,16 %. Se conservaron ambos valores en la base y se señaló la discrepancia sin modificar la fuente. El presupuesto EDUCCA 2026 pertenece a educación ambiental y no se utilizó como costo del proyecto BI.
+No se calculó costo por tonelada. Ese cociente requiere una masa y un costo del mismo proceso y período, así como criterios explícitos sobre personal, combustible, mantenimiento y disposición. Vincular automáticamente el presupuesto total del programa con una cifra mensual generaría una unidad económicamente ambigua.
+
+Hallazgos y decisiones municipales
+Tabla 4. Relación entre indicadores, evidencia y decisiones posibles
+Indicador o hallazgo
+Evidencia
+Decisión que puede sustentar
+Condición de verificación
+Cobertura declarada
+M24, p. 28
+Solicitar medición por sector y revisar continuidad
+Hogares o sectores atendidos y elegibles
+Registros por ruta
+M24, p. 29
+Priorizar actualización del padrón y campañas
+Identificar participantes únicos y actividad
+Ejecución presupuestaria
+M24, p. 29; M25, p. 20
+Revisar calendario de gasto y cuellos operativos
+Mismo corte, actividad y fase presupuestaria
+Masas por proceso
+M25, p. 52; M26, p. 106
+Distinguir captura selectiva de recuperación efectiva
+Pesajes, lotes, destinos y rechazos
+Puntos críticos identificados
+M25, p. 52
+Programar comprobación de cierre y seguimiento
+ID de sitio, fecha, intervención y evidencia
+Rutas y flota
+M26, p. 104
+Contrastar programación con capacidad disponible
+Viajes y horas por unidad y ruta
+Discrepancias documentales
+Verificación de los autores
+Solicitar conciliación antes de publicar tasas
+Responsable, explicación y nueva versión
+Fuente: elaboración propia. Las decisiones son aplicaciones posibles de la evidencia analizada; no constituyen acciones ejecutadas ni efectos evaluados.
+Priorización y seguimiento
+Los hallazgos permiten distinguir dos necesidades de gestión. La primera es operativa: definir qué evento se registra, dónde ocurre y con qué evidencia se cierra. La segunda es analítica: asegurar que cada indicador responda a una pregunta y que su denominador represente el universo adecuado. Una mayor cantidad de actividades publicadas no demuestra, por sí misma, mayor cobertura o menor riesgo ambiental.
+Para la operación, la unidad mínima recomendada es el viaje fechado con identificador de vehículo, ruta, origen, destino y pesaje. El registro de la incidencia debe mantenerse separado de la ruta, aunque ambos puedan relacionarse, así es posible diferenciar una ruta programada, un recorrido ejecutado y una atención extraordinaria. La combinación de estos hechos permitiría medir cumplimiento sin convertir un conteo de rutas existentes en una tasa de ejecución.
+Para el seguimiento de la valorización, se requiere conservar la relación entre material recibido, lote procesado y producto o material aprovechado. El descarte y los rechazos deben permanecer visibles. Un mismo material puede aparecer en varios eventos de manejo; sumarlos como nuevas toneladas generadas duplicaría el balance. El modelo propuesto utiliza claves del evento y del lote para evitar esa interpretación.
+Cada decisión derivada del tablero debería documentarse con responsable, fecha, plazo y evidencia de cierre. Esa asociación haría posible evaluar posteriormente si la información fue consultada y si produjo una intervención verificable. El presente análisis no establece un orden definitivo de prioridad territorial porque no dispone de mediciones homogéneas por sector.
+
+Análisis visual mediante Business Intelligence
+Se elaboró un modelo visual con tres vistas a partir de los registros recuperados. La Figura 5 presenta sus contenidos y las restricciones de lectura. Es una visualización de los autores compatible con una posterior construcción en Power BI; no es una captura de un sistema instalado en la municipalidad.
+Figura 5. Modelo de vistas ejecutiva, operativa y de calidad de información
+
+Fuente: elaboración propia con M24, M25, M26 y E26. Los cortes y universos se muestran junto a las cifras. La vista de calidad presenta verificaciones seleccionadas, no una estimación exhaustiva de completitud institucional.
+La vista ejecutiva conserva comparaciones presupuestarias dentro de cada corte. La operativa muestra la estructura del servicio publicada. La de calidad hace visibles las excepciones antes de liberar tasas. Los filtros previstos son documento, período, proceso y territorio; solo se habilitan zonas o rutas cuando existe detalle. Los valores ausentes deben mostrarse como no calculables y conservar su causa, sin reemplazarlos por cero.
+
+DISCUSIÓN
+El principal hallazgo metodológico es que la existencia de cifras públicas permite describir componentes del servicio, pero su integración exige conservar diferencias de significado. La comparabilidad depende de proceso, unidad, territorio, población y período. Una suma reproducible puede ser aritméticamente correcta y resultar inadecuada para responder una pregunta de gestión si mezcla hechos distintos. El análisis de Amarilis demuestra la necesidad de controlar esas dimensiones antes de interpretar tendencias.
+La arquitectura responde a los enfoques de intercambio de información sistematizados por Sosunova y Porras (2022). Su revisión ayuda a identificar fuentes y actores, mientras que este estudio trabaja con documentos agregados, sin sensores ni seguimiento continuo. La coincidencia se encuentra en la necesidad de definir qué datos circulan y para qué se utilizan. No se extrapolan beneficios de sistemas inteligentes a la realidad municipal examinada.
+Kannan et al. (2024) proponen integrar tecnologías, procesos y participantes dentro de una visión de gestión inteligente. En Amarilis, esa integración debe comenzar por un catálogo semántico y una bitácora de fuentes. La selección de una herramienta visual resulta insuficiente cuando el dato de entrada no permite distinguir recolección selectiva de valorización. La propuesta aporta un mecanismo para representar el problema y conservarlo visible, en lugar de resolverlo mediante una equivalencia asumida.
+El diseño dimensional se relaciona con la recomendación de Microsoft (s. f.) de mantener granularidad consistente en las tablas de hechos. Separar presupuesto, indicador publicado y participación de ruta evita multiplicar importes al realizar cruces. También permite que una nueva fuente incorpore un período más preciso sin alterar los registros originales. Esta decisión de arquitectura es especialmente útil cuando los reportes combinan datos anuales, cortes parciales y fotografías de una situación operativa.
+Los antecedentes peruanos proporcionan referencias para evaluar un futuro piloto. Cotrina-Altamirano et al. (2024) vinculan BI con decisiones estratégicas en un municipio, mientras que Pizango Tapullima (2024) analiza tiempos de producción de información en administración tributaria. Sus resultados provienen de otros ámbitos y procedimientos. En el caso estudiado no se midieron tiempos, satisfacción ni uso por funcionarios, por lo que no corresponde afirmar una reducción de trabajo o una mejora causal de decisiones.
+La dimensión territorial merece una evaluación específica. Rosas Garibay (2024) muestra el valor de localizar puntos y rutas para analizar problemas ambientales en Ica. El conjunto de Amarilis permite reconocer una distribución de registros, pero carece de coordenadas y padrones depurados para producir un mapa de cobertura validado. Sería necesario relacionar las fuentes con identificadores geográficos estables y realizar comprobaciones sobre el terreno antes de priorizar una zona por su aparente menor participación.
+Gutierrez-Lopez et al. (2023) resaltan la consideración de indicadores sociales junto a criterios económicos y ambientales. Bajo ese enfoque, la ejecución presupuestaria debe analizarse con continuidad del servicio, condiciones territoriales y acceso de la población. El porcentaje gastado es un indicador financiero y no una medida completa de eficacia. La matriz de decisiones incorpora esa distinción y condiciona la interpretación a evidencia operativa adicional.
+Limitaciones y alcance de la evidencia
+La búsqueda fue intencional y pública. No se accedió a padrones, pesajes ni registros administrativos internos. La imposibilidad de descargar los recursos distritales del catálogo MINAM limitó el contraste con una serie estadística externa. Tampoco se recuperó una evaluación POI/PEI con indicadores de residuos homologables para ambos años recientes. Estas restricciones describen el alcance del estudio y no prueban que la municipalidad carezca de esa información.
+Los documentos presentan períodos ambiguos, porcentajes sin denominador y rótulos editoriales heredados. Se conservó el período explícito del contenido y se documentaron las dudas. Los participantes tabulados no pueden interpretarse como personas únicas. Las masas expresadas como «más de» son cotas inferiores. La falta de bases temporales compatibles impide construir tendencias de eficiencia o tasas de recuperación que parezcan precisas sin estar sustentadas.
+Una evaluación posterior debería medir una línea base de tiempo de reporte, conciliación de datos y uso de indicadores, seguida de un piloto con responsables institucionales. Los efectos ambientales requerirían además verificar intervenciones y controlar cambios de operación. El aporte actual queda delimitado al análisis documental, los cálculos verificables y un diseño tecnológico que permite organizar esas futuras comprobaciones.
+
+CONCLUSIONES
+El análisis documental permitió caracterizar componentes de la gestión de residuos de Amarilis mediante tres rendiciones municipales y un plan de educación ambiental. Las fuentes aportan evidencia sobre organización del servicio, participación, masas y recursos. Sus alcances y cortes deben mantenerse visibles para que los resultados sean interpretables y no sustituyan una evaluación de campo, los cálculos verificaron 1 308 registros en el cuadro de segregación de 2024 y una ejecución de recolección y transporte de 62,85 %. Para el programa presupuestal 0036 de enero–junio de 2025 se obtuvo 48,15 %. Los resultados describen universos específicos; la documentación disponible no permite construir una serie interanual homogénea de valorización ni una tasa local de recuperación sobre generación, la arquitectura propuesta organiza las fuentes mediante una zona original, reglas ETL y hechos con granularidad explícita. La separación de indicadores publicados, presupuesto y participación por ruta permite conservar unidades, operadores y períodos. MySQL y el Data Warehouse constituyen el diseño de almacenamiento para una implementación posterior, mientras que el procesamiento documental y los cálculos sí fueron ejecutados.
+Las visualizaciones elaboradas permiten consultar recursos, distribución de registros y excepciones de calidad. Las tres vistas separan necesidades ejecutivas, operativas y de revisión de información. Su aporte comprobado es la representación de los datos recuperados con contexto y procedencia; no se evaluó la adopción de un tablero Power BI ni su efecto sobre el desempeño municipal, los hallazgos pueden sustentar solicitudes de conciliación, revisión presupuestaria y mejora de registros de rutas, lotes e incidencias. Para demostrar mejoras en decisiones y resultados ambientales se requiere autorización institucional, responsables de datos, denominadores compatibles y una evaluación antes y después de la implementación. La trazabilidad proporciona la base para realizar esa comprobación sin atribuir al software efectos todavía no medidos.
+
+REFERENCIAS BIBLIOGRÁFICAS
+Cotrina-Altamirano, N., Cárdenas-García, Á., & Torres-Delgado, W. (2024). Inteligencia de negocios para mejorar las decisiones estratégicas en un municipio peruano. UNAAACIENCIA-PERÚ, 3(1), e59. https://doi.org/10.56926/unaaaciencia.v3i1.59
+Gutierrez-Lopez, J., McGarvey, R. G., Costello, C., & Hall, D. M. (2023). Decision support frameworks in solid waste management: A systematic review of multi-criteria decision-making with sustainability and social indicators. Sustainability, 15(18), 13316. https://doi.org/10.3390/su151813316
+Kannan, D., Khademolqorani, S., Janatyan, N., & Alavi, S. (2024). Smart waste management 4.0: The transition from a systematic review to an integrated framework. Waste Management, 174, 1–14. https://doi.org/10.1016/j.wasman.2023.08.041
+López Castillo, J. A., Dueñas Herrada, A., & Briceño Contreras, S. L. (2026). Sistema de inteligencia ambiental basado en inteligencia de negocios y aprendizaje automático en la gestión de residuos sólidos en la Municipalidad de Amarilis, Huánuco [Monografía académica no publicada]. Universidad de Huánuco.
+Microsoft. (s. f.). Understand star schema and the importance for Power BI. Microsoft Learn. Recuperado el 7 de noviembre de 2026, de https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+Ministerio del Ambiente. (2025, 8 de julio). Municipios reportan incremento en valorización de residuos sólidos durante 2024. https://www.gob.pe/institucion/minam/noticias/1205034
+Ministerio del Ambiente. (2026, 10 de marzo). Valorización de residuos sólidos a nivel distrital [Conjunto de datos; catálogo consultado]. Plataforma Nacional de Datos Abiertos. https://www.datosabiertos.gob.pe/dataset/valorización-de-residuos-sólidos-nivel-distrital-ministerio-del-ambiente-minam
+Municipalidad Distrital de Amarilis. (2024). Resumen ejecutivo de la II audiencia pública de rendición de cuentas. https://muniamarilis.gob.pe/wp-content/uploads/2024/09/Resumen-Ejecutivo.pdf
+Municipalidad Distrital de Amarilis. (2025). Resumen ejecutivo 2025 segunda audiencia. https://muniamarilis.gob.pe/wp-content/uploads/2025/09/Resumen-ejecutivo-2025-segunda-audiencia.pdf
+Municipalidad Distrital de Amarilis. (2026a). Resumen ejecutivo [Documento publicado en septiembre; sección operativa del primer semestre de 2026]. https://muniamarilis.gob.pe/wp-content/uploads/2026/09/RESUMEN-EJECUTIVO.pdf
+Municipalidad Distrital de Amarilis. (2026b, 29 de enero). Plan de Trabajo 2026 del Programa Municipal EDUCCA Amarilis (Resolución de Gerencia Municipal 024-2026-MDA/GM). SINIA. https://sinia.minam.gob.pe/normas/plan-trabajo-2026-programa-municipal-educca-amarilis
+Pizango Tapullima, R. F. (2024). Aplicativo de inteligencia de negocios para la toma de decisiones en la gerencia de administración tributaria de la Municipalidad Provincial de Loreto Nauta 2023 [Tesis de maestría, Universidad Nacional de la Amazonía Peruana]. https://hdl.handle.net/20.500.12737/10553
+Programa de las Naciones Unidas para el Medio Ambiente. (2024). Global waste management outlook 2024. https://www.unep.org/en/publications/report/global-waste-management-outlook-2024
+Rosas Garibay, S. A. (2024). Aplicación de un sistema de información geográfica para la gestión ambiental de los residuos sólidos municipales del distrito de Ica, provincia de Ica, año 2022 [Tesis de licenciatura, Universidad Nacional San Luis Gonzaga]. https://hdl.handle.net/20.500.13028/5742
+Sosunova, I., & Porras, J. (2022). IoT-enabled smart waste management systems for smart cities: A systematic review. IEEE Access, 10, 73326–73363. https://doi.org/10.1109/ACCESS.2022.3188308

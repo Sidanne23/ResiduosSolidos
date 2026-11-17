@@ -1,0 +1,3761 @@
+{
+  "Indicadores": {
+    "max_row": 40,
+    "max_column": 11,
+    "rows": [
+      {
+        "A2": {
+          "value": "Indicadores de residuos sólidos de Amarilis",
+          "cached": "Indicadores de residuos sólidos de Amarilis",
+          "format": "General"
+        }
+      },
+      {
+        "A3": {
+          "value": "Fuentes 2024–2026. Cada resultado conserva el corte de su fuente.",
+          "cached": "Fuentes 2024–2026. Cada resultado conserva el corte de su fuente.",
+          "format": "General"
+        }
+      },
+      {
+        "A5": {
+          "value": "Indicador calculado",
+          "cached": "Indicador calculado",
+          "format": "General"
+        },
+        "B5": {
+          "value": "Resultado",
+          "cached": "Resultado",
+          "format": "General"
+        },
+        "C5": {
+          "value": "Unidad",
+          "cached": "Unidad",
+          "format": "General"
+        },
+        "D5": {
+          "value": "Período",
+          "cached": "Período",
+          "format": "General"
+        },
+        "E5": {
+          "value": "Interpretación",
+          "cached": "Interpretación",
+          "format": "General"
+        }
+      },
+      {
+        "A6": {
+          "value": "Participantes registrados por ruta",
+          "cached": "Participantes registrados por ruta",
+          "format": "General"
+        },
+        "B6": {
+          "value": "=SUM('Rutas2024'!C2:C12)",
+          "cached": 1308,
+          "format": "#,##0"
+        },
+        "C6": {
+          "value": "registros",
+          "cached": "registros",
+          "format": "General"
+        },
+        "D6": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E6": {
+          "value": "No acredita participantes únicos",
+          "cached": "No acredita participantes únicos",
+          "format": "General"
+        }
+      },
+      {
+        "A7": {
+          "value": "Concentración R01 y R08",
+          "cached": "Concentración R01 y R08",
+          "format": "General"
+        },
+        "B7": {
+          "value": "=('Rutas2024'!C2+'Rutas2024'!C9)/B6",
+          "cached": 0.32798165137614677,
+          "format": "0.00%"
+        },
+        "C7": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D7": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E7": {
+          "value": "Distribución interna del cuadro",
+          "cached": "Distribución interna del cuadro",
+          "format": "General"
+        }
+      },
+      {
+        "A8": {
+          "value": "Ejecución recolección y transporte",
+          "cached": "Ejecución recolección y transporte",
+          "format": "General"
+        },
+        "B8": {
+          "value": "='Registros'!E10/'Registros'!E9",
+          "cached": 0.6284663935762616,
+          "format": "0.00%"
+        },
+        "C8": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D8": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E8": {
+          "value": "Avance de la actividad presupuestaria",
+          "cached": "Avance de la actividad presupuestaria",
+          "format": "General"
+        }
+      },
+      {
+        "A9": {
+          "value": "Diferencia asignado menos ejecutado",
+          "cached": "Diferencia asignado menos ejecutado",
+          "format": "General"
+        },
+        "B9": {
+          "value": "='Registros'!E9-'Registros'!E10",
+          "cached": 1458432.88,
+          "format": "\"S/ \"#,##0.00"
+        },
+        "C9": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "D9": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E9": {
+          "value": "Resta al corte; no disponibilidad legal",
+          "cached": "Resta al corte; no disponibilidad legal",
+          "format": "General"
+        }
+      },
+      {
+        "A10": {
+          "value": "Ejecución barrido",
+          "cached": "Ejecución barrido",
+          "format": "General"
+        },
+        "B10": {
+          "value": "='Registros'!E7/'Registros'!E6",
+          "cached": 0.6926231927264681,
+          "format": "0.00%"
+        },
+        "C10": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D10": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E10": {
+          "value": "Comparación dentro de la actividad",
+          "cached": "Comparación dentro de la actividad",
+          "format": "General"
+        }
+      },
+      {
+        "A11": {
+          "value": "Ejecución EDUCCA recalculada",
+          "cached": "Ejecución EDUCCA recalculada",
+          "format": "General"
+        },
+        "B11": {
+          "value": "='Registros'!E13/'Registros'!E12",
+          "cached": 0.9315623041103251,
+          "format": "0.00%"
+        },
+        "C11": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D11": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E11": {
+          "value": "Fuente publica 93,14 %",
+          "cached": "Fuente publica 93,14 %",
+          "format": "General"
+        }
+      },
+      {
+        "A12": {
+          "value": "Diferencia frente a porcentaje publicado",
+          "cached": "Diferencia frente a porcentaje publicado",
+          "format": "General"
+        },
+        "B12": {
+          "value": "=(B11-'Registros'!E14/100)*100",
+          "cached": 0.01623041103251399,
+          "format": "0.0000"
+        },
+        "C12": {
+          "value": "puntos porcentuales",
+          "cached": "puntos porcentuales",
+          "format": "General"
+        },
+        "D12": {
+          "value": "Corte M24",
+          "cached": "Corte M24",
+          "format": "General"
+        },
+        "E12": {
+          "value": "Diferencia positiva del recalculado",
+          "cached": "Diferencia positiva del recalculado",
+          "format": "General"
+        }
+      },
+      {
+        "A13": {
+          "value": "Ejecución PP 0036",
+          "cached": "Ejecución PP 0036",
+          "format": "General"
+        },
+        "B13": {
+          "value": "='Registros'!E23/'Registros'!E22",
+          "cached": 0.48148662065426906,
+          "format": "0.00%"
+        },
+        "C13": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D13": {
+          "value": "Ene–jun 2025",
+          "cached": "Ene–jun 2025",
+          "format": "General"
+        },
+        "E13": {
+          "value": "Programa más amplio que recolección",
+          "cached": "Programa más amplio que recolección",
+          "format": "General"
+        }
+      },
+      {
+        "A14": {
+          "value": "Diferencia PIM menos ejecutado PP 0036",
+          "cached": "Diferencia PIM menos ejecutado PP 0036",
+          "format": "General"
+        },
+        "B14": {
+          "value": "='Registros'!E22-'Registros'!E23",
+          "cached": 2720410,
+          "format": "\"S/ \"#,##0.00"
+        },
+        "C14": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "D14": {
+          "value": "Ene–jun 2025",
+          "cached": "Ene–jun 2025",
+          "format": "General"
+        },
+        "E14": {
+          "value": "Saldo aritmético del cuadro",
+          "cached": "Saldo aritmético del cuadro",
+          "format": "General"
+        }
+      },
+      {
+        "A15": {
+          "value": "Valorización declarada por ambos tipos",
+          "cached": "Valorización declarada por ambos tipos",
+          "format": "General"
+        },
+        "B15": {
+          "value": "='Registros'!E18+'Registros'!E19",
+          "cached": 615.9,
+          "format": "#,##0.00"
+        },
+        "C15": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "D15": {
+          "value": "Corte M25",
+          "cached": "Corte M25",
+          "format": "General"
+        },
+        "E15": {
+          "value": "Sin desglose por mes; no es tasa",
+          "cached": "Sin desglose por mes; no es tasa",
+          "format": "General"
+        }
+      },
+      {
+        "A16": {
+          "value": "Cota de recolección selectiva",
+          "cached": "Cota de recolección selectiva",
+          "format": "General"
+        },
+        "B16": {
+          "value": "='Registros'!E36+'Registros'!E37",
+          "cached": 262.27,
+          "format": "\"> \"#,##0.00"
+        },
+        "C16": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "D16": {
+          "value": "Ene–jun 2026",
+          "cached": "Ene–jun 2026",
+          "format": "General"
+        },
+        "E16": {
+          "value": "Más de la suma de umbrales; no masa exacta",
+          "cached": "Más de la suma de umbrales; no masa exacta",
+          "format": "General"
+        }
+      },
+      {
+        "A17": {
+          "value": "Erradicación del conjunto identificado",
+          "cached": "Erradicación del conjunto identificado",
+          "format": "General"
+        },
+        "B17": {
+          "value": "='Registros'!E21/'Registros'!E20",
+          "cached": 0,
+          "format": "0.00%"
+        },
+        "C17": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D17": {
+          "value": "Corte M25",
+          "cached": "Corte M25",
+          "format": "General"
+        },
+        "E17": {
+          "value": "Estado declarado al corte",
+          "cached": "Estado declarado al corte",
+          "format": "General"
+        }
+      },
+      {
+        "A18": {
+          "value": "Conciliación de composición de flota",
+          "cached": "Conciliación de composición de flota",
+          "format": "General"
+        },
+        "B18": {
+          "value": "='Registros'!E29+'Registros'!E30+'Registros'!E31",
+          "cached": 13,
+          "format": "#,##0"
+        },
+        "C18": {
+          "value": "vehículos",
+          "cached": "vehículos",
+          "format": "General"
+        },
+        "D18": {
+          "value": "Ene–jun 2026",
+          "cached": "Ene–jun 2026",
+          "format": "General"
+        },
+        "E18": {
+          "value": "Comparar con 13 unidades operativas",
+          "cached": "Comparar con 13 unidades operativas",
+          "format": "General"
+        }
+      },
+      {
+        "A19": {
+          "value": "Cociente mensual / diario declarado",
+          "cached": "Cociente mensual / diario declarado",
+          "format": "General"
+        },
+        "B19": {
+          "value": "='Registros'!E35/'Registros'!E34",
+          "cached": 18.169354194938933,
+          "format": "0.00"
+        },
+        "C19": {
+          "value": "días equivalentes",
+          "cached": "días equivalentes",
+          "format": "General"
+        },
+        "D19": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E19": {
+          "value": "Diagnóstico; no son días efectivamente medidos",
+          "cached": "Diagnóstico; no son días efectivamente medidos",
+          "format": "General"
+        }
+      },
+      {
+        "A20": {
+          "value": "Proporción escolar del plan EDUCCA",
+          "cached": "Proporción escolar del plan EDUCCA",
+          "format": "General"
+        },
+        "B20": {
+          "value": "='Registros'!E41/'Registros'!E40",
+          "cached": 0.422157555601746,
+          "format": "0.00%"
+        },
+        "C20": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D20": {
+          "value": "Plan anual 2026",
+          "cached": "Plan anual 2026",
+          "format": "General"
+        },
+        "E20": {
+          "value": "Asignación aprobada; no ejecución",
+          "cached": "Asignación aprobada; no ejecución",
+          "format": "General"
+        }
+      },
+      {
+        "A21": {
+          "value": "Proporción comunitaria del plan EDUCCA",
+          "cached": "Proporción comunitaria del plan EDUCCA",
+          "format": "General"
+        },
+        "B21": {
+          "value": "='Registros'!E42/'Registros'!E40",
+          "cached": 0.577842444398254,
+          "format": "0.00%"
+        },
+        "C21": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "D21": {
+          "value": "Plan anual 2026",
+          "cached": "Plan anual 2026",
+          "format": "General"
+        },
+        "E21": {
+          "value": "Asignación aprobada; no ejecución",
+          "cached": "Asignación aprobada; no ejecución",
+          "format": "General"
+        }
+      },
+      {
+        "A24": {
+          "value": "Presupuesto al corte 2024",
+          "cached": "Presupuesto al corte 2024",
+          "format": "General"
+        },
+        "B24": {
+          "value": "Asignado S/",
+          "cached": "Asignado S/",
+          "format": "General"
+        },
+        "C24": {
+          "value": "Ejecutado S/",
+          "cached": "Ejecutado S/",
+          "format": "General"
+        }
+      },
+      {
+        "A25": {
+          "value": "Barrido",
+          "cached": "Barrido",
+          "format": "General"
+        },
+        "B25": {
+          "value": "='Registros'!E6",
+          "cached": 1066662,
+          "format": "#,##0.00"
+        },
+        "C25": {
+          "value": "='Registros'!E7",
+          "cached": 738794.84,
+          "format": "#,##0.00"
+        }
+      },
+      {
+        "A26": {
+          "value": "Recolección y transporte",
+          "cached": "Recolección y transporte",
+          "format": "General"
+        },
+        "B26": {
+          "value": "='Registros'!E9",
+          "cached": 3925440,
+          "format": "#,##0.00"
+        },
+        "C26": {
+          "value": "='Registros'!E10",
+          "cached": 2467007.12,
+          "format": "#,##0.00"
+        }
+      },
+      {
+        "A27": {
+          "value": "EDUCCA",
+          "cached": "EDUCCA",
+          "format": "General"
+        },
+        "B27": {
+          "value": "='Registros'!E12",
+          "cached": 89336,
+          "format": "#,##0.00"
+        },
+        "C27": {
+          "value": "='Registros'!E13",
+          "cached": 83222.05,
+          "format": "#,##0.00"
+        }
+      },
+      {
+        "A30": {
+          "value": "Las actividades de 2024, el PP 0036 de 2025 y el plan 2026 tienen alcances diferentes.",
+          "cached": "Las actividades de 2024, el PP 0036 de 2025 y el plan 2026 tienen alcances diferentes.",
+          "format": "General"
+        }
+      },
+      {
+        "A31": {
+          "value": "No se calcula una tendencia interanual ni costo por tonelada con estos cortes.",
+          "cached": "No se calcula una tendencia interanual ni costo por tonelada con estos cortes.",
+          "format": "General"
+        }
+      }
+    ]
+  },
+  "Registros": {
+    "max_row": 42,
+    "max_column": 10,
+    "rows": [
+      {
+        "A1": {
+          "value": "ID",
+          "cached": "ID",
+          "format": "General"
+        },
+        "B1": {
+          "value": "Año",
+          "cached": "Año",
+          "format": "General"
+        },
+        "C1": {
+          "value": "Indicador publicado",
+          "cached": "Indicador publicado",
+          "format": "General"
+        },
+        "D1": {
+          "value": "Fuente",
+          "cached": "Fuente",
+          "format": "General"
+        },
+        "E1": {
+          "value": "Valor numérico",
+          "cached": "Valor numérico",
+          "format": "General"
+        },
+        "F1": {
+          "value": "Unidad",
+          "cached": "Unidad",
+          "format": "General"
+        },
+        "G1": {
+          "value": "Operador",
+          "cached": "Operador",
+          "format": "General"
+        },
+        "H1": {
+          "value": "Período",
+          "cached": "Período",
+          "format": "General"
+        },
+        "I1": {
+          "value": "Observación",
+          "cached": "Observación",
+          "format": "General"
+        },
+        "J1": {
+          "value": "Localizador",
+          "cached": "Localizador",
+          "format": "General"
+        }
+      },
+      {
+        "A2": {
+          "value": "R01",
+          "cached": "R01",
+          "format": "General"
+        },
+        "B2": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C2": {
+          "value": "Cobertura declarada",
+          "cached": "Cobertura declarada",
+          "format": "General"
+        },
+        "D2": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E2": {
+          "value": 99,
+          "cached": 99,
+          "format": "#,##0.00"
+        },
+        "F2": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G2": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H2": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "I2": {
+          "value": "Sin numerador ni denominador; no medición independiente",
+          "cached": "Sin numerador ni denominador; no medición independiente",
+          "format": "General"
+        },
+        "J2": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A3": {
+          "value": "R02",
+          "cached": "R02",
+          "format": "General"
+        },
+        "B3": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C3": {
+          "value": "Jornada diaria de recolección",
+          "cached": "Jornada diaria de recolección",
+          "format": "General"
+        },
+        "D3": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E3": {
+          "value": 8,
+          "cached": 8,
+          "format": "#,##0"
+        },
+        "F3": {
+          "value": "h/día",
+          "cached": "h/día",
+          "format": "General"
+        },
+        "G3": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H3": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "I3": {
+          "value": "05:00 a 13:00, lunes a sábado",
+          "cached": "05:00 a 13:00, lunes a sábado",
+          "format": "General"
+        },
+        "J3": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A4": {
+          "value": "R03",
+          "cached": "R03",
+          "format": "General"
+        },
+        "B4": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C4": {
+          "value": "Vehículos baranda adquiridos",
+          "cached": "Vehículos baranda adquiridos",
+          "format": "General"
+        },
+        "D4": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E4": {
+          "value": 2,
+          "cached": 2,
+          "format": "#,##0"
+        },
+        "F4": {
+          "value": "vehículos",
+          "cached": "vehículos",
+          "format": "General"
+        },
+        "G4": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H4": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "I4": {
+          "value": "Adquisición, no tamaño total de flota",
+          "cached": "Adquisición, no tamaño total de flota",
+          "format": "General"
+        },
+        "J4": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A5": {
+          "value": "R04",
+          "cached": "R04",
+          "format": "General"
+        },
+        "B5": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C5": {
+          "value": "Rutas de segregación enumeradas",
+          "cached": "Rutas de segregación enumeradas",
+          "format": "General"
+        },
+        "D5": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E5": {
+          "value": 11,
+          "cached": 11,
+          "format": "#,##0"
+        },
+        "F5": {
+          "value": "rutas",
+          "cached": "rutas",
+          "format": "General"
+        },
+        "G5": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H5": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "I5": {
+          "value": "Conteo del cuadro de participación; inorgánicos",
+          "cached": "Conteo del cuadro de participación; inorgánicos",
+          "format": "General"
+        },
+        "J5": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A6": {
+          "value": "R05",
+          "cached": "R05",
+          "format": "General"
+        },
+        "B6": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C6": {
+          "value": "Presupuesto asignado barrido",
+          "cached": "Presupuesto asignado barrido",
+          "format": "General"
+        },
+        "D6": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E6": {
+          "value": 1066662,
+          "cached": 1066662,
+          "format": "#,##0.00"
+        },
+        "F6": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G6": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H6": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J6": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A7": {
+          "value": "R06",
+          "cached": "R06",
+          "format": "General"
+        },
+        "B7": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C7": {
+          "value": "Presupuesto ejecutado barrido",
+          "cached": "Presupuesto ejecutado barrido",
+          "format": "General"
+        },
+        "D7": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E7": {
+          "value": 738794.84,
+          "cached": 738794.84,
+          "format": "#,##0.00"
+        },
+        "F7": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G7": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H7": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J7": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A8": {
+          "value": "R07",
+          "cached": "R07",
+          "format": "General"
+        },
+        "B8": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C8": {
+          "value": "Ejecución barrido reportada",
+          "cached": "Ejecución barrido reportada",
+          "format": "General"
+        },
+        "D8": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E8": {
+          "value": 69.26,
+          "cached": 69.26,
+          "format": "#,##0.00"
+        },
+        "F8": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G8": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H8": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J8": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A9": {
+          "value": "R08",
+          "cached": "R08",
+          "format": "General"
+        },
+        "B9": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C9": {
+          "value": "Presupuesto asignado recolección y transporte",
+          "cached": "Presupuesto asignado recolección y transporte",
+          "format": "General"
+        },
+        "D9": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E9": {
+          "value": 3925440,
+          "cached": 3925440,
+          "format": "#,##0.00"
+        },
+        "F9": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G9": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H9": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J9": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A10": {
+          "value": "R09",
+          "cached": "R09",
+          "format": "General"
+        },
+        "B10": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C10": {
+          "value": "Presupuesto ejecutado recolección y transporte",
+          "cached": "Presupuesto ejecutado recolección y transporte",
+          "format": "General"
+        },
+        "D10": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E10": {
+          "value": 2467007.12,
+          "cached": 2467007.12,
+          "format": "#,##0.00"
+        },
+        "F10": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G10": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H10": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J10": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A11": {
+          "value": "R10",
+          "cached": "R10",
+          "format": "General"
+        },
+        "B11": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C11": {
+          "value": "Ejecución recolección reportada",
+          "cached": "Ejecución recolección reportada",
+          "format": "General"
+        },
+        "D11": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E11": {
+          "value": 62.85,
+          "cached": 62.85,
+          "format": "#,##0.00"
+        },
+        "F11": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G11": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H11": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J11": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A12": {
+          "value": "R11",
+          "cached": "R11",
+          "format": "General"
+        },
+        "B12": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C12": {
+          "value": "Presupuesto asignado EDUCCA",
+          "cached": "Presupuesto asignado EDUCCA",
+          "format": "General"
+        },
+        "D12": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E12": {
+          "value": 89336,
+          "cached": 89336,
+          "format": "#,##0.00"
+        },
+        "F12": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G12": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H12": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J12": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A13": {
+          "value": "R12",
+          "cached": "R12",
+          "format": "General"
+        },
+        "B13": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C13": {
+          "value": "Presupuesto ejecutado EDUCCA",
+          "cached": "Presupuesto ejecutado EDUCCA",
+          "format": "General"
+        },
+        "D13": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E13": {
+          "value": 83222.05,
+          "cached": 83222.05,
+          "format": "#,##0.00"
+        },
+        "F13": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G13": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H13": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J13": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A14": {
+          "value": "R13",
+          "cached": "R13",
+          "format": "General"
+        },
+        "B14": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "C14": {
+          "value": "Ejecución EDUCCA reportada",
+          "cached": "Ejecución EDUCCA reportada",
+          "format": "General"
+        },
+        "D14": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "E14": {
+          "value": 93.14,
+          "cached": 93.14,
+          "format": "#,##0.00"
+        },
+        "F14": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G14": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H14": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "J14": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        }
+      },
+      {
+        "A15": {
+          "value": "R14",
+          "cached": "R14",
+          "format": "General"
+        },
+        "B15": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C15": {
+          "value": "Cobertura declarada",
+          "cached": "Cobertura declarada",
+          "format": "General"
+        },
+        "D15": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E15": {
+          "value": 100,
+          "cached": 100,
+          "format": "#,##0.00"
+        },
+        "F15": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G15": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H15": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "I15": {
+          "value": "No homologada con cobertura 2024",
+          "cached": "No homologada con cobertura 2024",
+          "format": "General"
+        },
+        "J15": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A16": {
+          "value": "R15",
+          "cached": "R15",
+          "format": "General"
+        },
+        "B16": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C16": {
+          "value": "Masa de recolección declarada",
+          "cached": "Masa de recolección declarada",
+          "format": "General"
+        },
+        "D16": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E16": {
+          "value": 1221.84,
+          "cached": 1221.84,
+          "format": "#,##0.00"
+        },
+        "F16": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "G16": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H16": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "I16": {
+          "value": "Tabla: mensual; texto: período analizado. No anualizar",
+          "cached": "Tabla: mensual; texto: período analizado. No anualizar",
+          "format": "General"
+        },
+        "J16": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A17": {
+          "value": "R16",
+          "cached": "R16",
+          "format": "General"
+        },
+        "B17": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C17": {
+          "value": "Porcentaje asociado a masa mensual",
+          "cached": "Porcentaje asociado a masa mensual",
+          "format": "General"
+        },
+        "D17": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E17": {
+          "value": 51.61,
+          "cached": 51.61,
+          "format": "#,##0.00"
+        },
+        "F17": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G17": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H17": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "I17": {
+          "value": "Denominador no explicitado; no usado en tasas",
+          "cached": "Denominador no explicitado; no usado en tasas",
+          "format": "General"
+        },
+        "J17": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A18": {
+          "value": "R17",
+          "cached": "R17",
+          "format": "General"
+        },
+        "B18": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C18": {
+          "value": "Valorización orgánica declarada",
+          "cached": "Valorización orgánica declarada",
+          "format": "General"
+        },
+        "D18": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E18": {
+          "value": 358.4,
+          "cached": 358.4,
+          "format": "#,##0.00"
+        },
+        "F18": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "G18": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H18": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "I18": {
+          "value": "Corte general del informe 2025; sin desglose por mes",
+          "cached": "Corte general del informe 2025; sin desglose por mes",
+          "format": "General"
+        },
+        "J18": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A19": {
+          "value": "R18",
+          "cached": "R18",
+          "format": "General"
+        },
+        "B19": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C19": {
+          "value": "Valorización inorgánica declarada",
+          "cached": "Valorización inorgánica declarada",
+          "format": "General"
+        },
+        "D19": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E19": {
+          "value": 257.5,
+          "cached": 257.5,
+          "format": "#,##0.00"
+        },
+        "F19": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "G19": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H19": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "I19": {
+          "value": "Corte general del informe 2025; sin desglose por mes",
+          "cached": "Corte general del informe 2025; sin desglose por mes",
+          "format": "General"
+        },
+        "J19": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A20": {
+          "value": "R19",
+          "cached": "R19",
+          "format": "General"
+        },
+        "B20": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C20": {
+          "value": "Puntos críticos identificados",
+          "cached": "Puntos críticos identificados",
+          "format": "General"
+        },
+        "D20": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E20": {
+          "value": 18,
+          "cached": 18,
+          "format": "#,##0"
+        },
+        "F20": {
+          "value": "puntos",
+          "cached": "puntos",
+          "format": "General"
+        },
+        "G20": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H20": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "I20": {
+          "value": "Estado al corte, no incidencia anual",
+          "cached": "Estado al corte, no incidencia anual",
+          "format": "General"
+        },
+        "J20": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A21": {
+          "value": "R20",
+          "cached": "R20",
+          "format": "General"
+        },
+        "B21": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C21": {
+          "value": "Puntos críticos erradicados",
+          "cached": "Puntos críticos erradicados",
+          "format": "General"
+        },
+        "D21": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E21": {
+          "value": 0,
+          "cached": 0,
+          "format": "#,##0"
+        },
+        "F21": {
+          "value": "puntos",
+          "cached": "puntos",
+          "format": "General"
+        },
+        "G21": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H21": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "J21": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A22": {
+          "value": "R21",
+          "cached": "R21",
+          "format": "General"
+        },
+        "B22": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C22": {
+          "value": "PIM programa presupuestal 0036",
+          "cached": "PIM programa presupuestal 0036",
+          "format": "General"
+        },
+        "D22": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E22": {
+          "value": 5246557,
+          "cached": 5246557,
+          "format": "#,##0.00"
+        },
+        "F22": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G22": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H22": {
+          "value": "Primer semestre 2025",
+          "cached": "Primer semestre 2025",
+          "format": "General"
+        },
+        "J22": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A23": {
+          "value": "R22",
+          "cached": "R22",
+          "format": "General"
+        },
+        "B23": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C23": {
+          "value": "Ejecución programa presupuestal 0036",
+          "cached": "Ejecución programa presupuestal 0036",
+          "format": "General"
+        },
+        "D23": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E23": {
+          "value": 2526147,
+          "cached": 2526147,
+          "format": "#,##0.00"
+        },
+        "F23": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G23": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H23": {
+          "value": "Primer semestre 2025",
+          "cached": "Primer semestre 2025",
+          "format": "General"
+        },
+        "J23": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A24": {
+          "value": "R23",
+          "cached": "R23",
+          "format": "General"
+        },
+        "B24": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C24": {
+          "value": "Porcentaje ejecución PP 0036 reportado",
+          "cached": "Porcentaje ejecución PP 0036 reportado",
+          "format": "General"
+        },
+        "D24": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E24": {
+          "value": 48.15,
+          "cached": 48.15,
+          "format": "#,##0.00"
+        },
+        "F24": {
+          "value": "%",
+          "cached": "%",
+          "format": "General"
+        },
+        "G24": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H24": {
+          "value": "Primer semestre 2025",
+          "cached": "Primer semestre 2025",
+          "format": "General"
+        },
+        "J24": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A25": {
+          "value": "R24",
+          "cached": "R24",
+          "format": "General"
+        },
+        "B25": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C25": {
+          "value": "Campañas EDUCCA declaradas",
+          "cached": "Campañas EDUCCA declaradas",
+          "format": "General"
+        },
+        "D25": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E25": {
+          "value": 34,
+          "cached": 34,
+          "format": "#,##0"
+        },
+        "F25": {
+          "value": "actividades",
+          "cached": "actividades",
+          "format": "General"
+        },
+        "G25": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H25": {
+          "value": "Mayo–agosto 2025",
+          "cached": "Mayo–agosto 2025",
+          "format": "General"
+        },
+        "I25": {
+          "value": "Tabla de componentes no concilia participantes con total",
+          "cached": "Tabla de componentes no concilia participantes con total",
+          "format": "General"
+        },
+        "J25": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A26": {
+          "value": "R25",
+          "cached": "R25",
+          "format": "General"
+        },
+        "B26": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "C26": {
+          "value": "Ciudadanos sensibilizados declarados",
+          "cached": "Ciudadanos sensibilizados declarados",
+          "format": "General"
+        },
+        "D26": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "E26": {
+          "value": 1585,
+          "cached": 1585,
+          "format": "#,##0"
+        },
+        "F26": {
+          "value": "participantes",
+          "cached": "participantes",
+          "format": "General"
+        },
+        "G26": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H26": {
+          "value": "Mayo–agosto 2025",
+          "cached": "Mayo–agosto 2025",
+          "format": "General"
+        },
+        "I26": {
+          "value": "No se acredita unicidad; total no conciliado con componentes",
+          "cached": "No se acredita unicidad; total no conciliado con componentes",
+          "format": "General"
+        },
+        "J26": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        }
+      },
+      {
+        "A27": {
+          "value": "R26",
+          "cached": "R26",
+          "format": "General"
+        },
+        "B27": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C27": {
+          "value": "Rutas de recolección",
+          "cached": "Rutas de recolección",
+          "format": "General"
+        },
+        "D27": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E27": {
+          "value": 18,
+          "cached": 18,
+          "format": "#,##0"
+        },
+        "F27": {
+          "value": "rutas",
+          "cached": "rutas",
+          "format": "General"
+        },
+        "G27": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H27": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J27": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A28": {
+          "value": "R27",
+          "cached": "R27",
+          "format": "General"
+        },
+        "B28": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C28": {
+          "value": "Unidades vehiculares operativas",
+          "cached": "Unidades vehiculares operativas",
+          "format": "General"
+        },
+        "D28": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E28": {
+          "value": 13,
+          "cached": 13,
+          "format": "#,##0"
+        },
+        "F28": {
+          "value": "vehículos",
+          "cached": "vehículos",
+          "format": "General"
+        },
+        "G28": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H28": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J28": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A29": {
+          "value": "R28",
+          "cached": "R28",
+          "format": "General"
+        },
+        "B29": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C29": {
+          "value": "Compactadores",
+          "cached": "Compactadores",
+          "format": "General"
+        },
+        "D29": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E29": {
+          "value": 9,
+          "cached": 9,
+          "format": "#,##0"
+        },
+        "F29": {
+          "value": "vehículos",
+          "cached": "vehículos",
+          "format": "General"
+        },
+        "G29": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H29": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J29": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A30": {
+          "value": "R29",
+          "cached": "R29",
+          "format": "General"
+        },
+        "B30": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C30": {
+          "value": "Volquetes",
+          "cached": "Volquetes",
+          "format": "General"
+        },
+        "D30": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E30": {
+          "value": 3,
+          "cached": 3,
+          "format": "#,##0"
+        },
+        "F30": {
+          "value": "vehículos",
+          "cached": "vehículos",
+          "format": "General"
+        },
+        "G30": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H30": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J30": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A31": {
+          "value": "R30",
+          "cached": "R30",
+          "format": "General"
+        },
+        "B31": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C31": {
+          "value": "Baranda operativo",
+          "cached": "Baranda operativo",
+          "format": "General"
+        },
+        "D31": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E31": {
+          "value": 1,
+          "cached": 1,
+          "format": "#,##0"
+        },
+        "F31": {
+          "value": "vehículo",
+          "cached": "vehículo",
+          "format": "General"
+        },
+        "G31": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H31": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J31": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A32": {
+          "value": "R31",
+          "cached": "R31",
+          "format": "General"
+        },
+        "B32": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C32": {
+          "value": "Rutas de barrido",
+          "cached": "Rutas de barrido",
+          "format": "General"
+        },
+        "D32": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E32": {
+          "value": 34,
+          "cached": 34,
+          "format": "#,##0"
+        },
+        "F32": {
+          "value": "rutas",
+          "cached": "rutas",
+          "format": "General"
+        },
+        "G32": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H32": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J32": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A33": {
+          "value": "R32",
+          "cached": "R32",
+          "format": "General"
+        },
+        "B33": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C33": {
+          "value": "Barrido lineal diario aproximado",
+          "cached": "Barrido lineal diario aproximado",
+          "format": "General"
+        },
+        "D33": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E33": {
+          "value": 70,
+          "cached": 70,
+          "format": "#,##0"
+        },
+        "F33": {
+          "value": "km/día",
+          "cached": "km/día",
+          "format": "General"
+        },
+        "G33": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H33": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "J33": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A34": {
+          "value": "R33",
+          "cached": "R33",
+          "format": "General"
+        },
+        "B34": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C34": {
+          "value": "Recolección promedio diaria declarada",
+          "cached": "Recolección promedio diaria declarada",
+          "format": "General"
+        },
+        "D34": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E34": {
+          "value": 100.216,
+          "cached": 100.216,
+          "format": "0.000"
+        },
+        "F34": {
+          "value": "t/día",
+          "cached": "t/día",
+          "format": "General"
+        },
+        "G34": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H34": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "I34": {
+          "value": "No concilia directamente con masa mensual publicada",
+          "cached": "No concilia directamente con masa mensual publicada",
+          "format": "General"
+        },
+        "J34": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A35": {
+          "value": "R34",
+          "cached": "R34",
+          "format": "General"
+        },
+        "B35": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C35": {
+          "value": "Recolección mensual aproximada declarada",
+          "cached": "Recolección mensual aproximada declarada",
+          "format": "General"
+        },
+        "D35": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E35": {
+          "value": 1820.86,
+          "cached": 1820.86,
+          "format": "#,##0.00"
+        },
+        "F35": {
+          "value": "t/mes",
+          "cached": "t/mes",
+          "format": "General"
+        },
+        "G35": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H35": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "I35": {
+          "value": "No extrapolar al año",
+          "cached": "No extrapolar al año",
+          "format": "General"
+        },
+        "J35": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A36": {
+          "value": "R35",
+          "cached": "R35",
+          "format": "General"
+        },
+        "B36": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C36": {
+          "value": "Recolección selectiva orgánica",
+          "cached": "Recolección selectiva orgánica",
+          "format": "General"
+        },
+        "D36": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E36": {
+          "value": 235.78,
+          "cached": 235.78,
+          "format": "#,##0.00"
+        },
+        "F36": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "G36": {
+          "value": "Mayor que",
+          "cached": "Mayor que",
+          "format": "General"
+        },
+        "H36": {
+          "value": "Primeros seis meses 2026",
+          "cached": "Primeros seis meses 2026",
+          "format": "General"
+        },
+        "I36": {
+          "value": "Fuente dice más de; conservar desigualdad",
+          "cached": "Fuente dice más de; conservar desigualdad",
+          "format": "General"
+        },
+        "J36": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A37": {
+          "value": "R36",
+          "cached": "R36",
+          "format": "General"
+        },
+        "B37": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C37": {
+          "value": "Recolección selectiva inorgánica",
+          "cached": "Recolección selectiva inorgánica",
+          "format": "General"
+        },
+        "D37": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E37": {
+          "value": 26.49,
+          "cached": 26.49,
+          "format": "#,##0.00"
+        },
+        "F37": {
+          "value": "t",
+          "cached": "t",
+          "format": "General"
+        },
+        "G37": {
+          "value": "Mayor que",
+          "cached": "Mayor que",
+          "format": "General"
+        },
+        "H37": {
+          "value": "Primeros seis meses 2026",
+          "cached": "Primeros seis meses 2026",
+          "format": "General"
+        },
+        "I37": {
+          "value": "Fuente dice más de; no sustituir por valorización",
+          "cached": "Fuente dice más de; no sustituir por valorización",
+          "format": "General"
+        },
+        "J37": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A38": {
+          "value": "R37",
+          "cached": "R37",
+          "format": "General"
+        },
+        "B38": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C38": {
+          "value": "Rutas selectivas orgánicas",
+          "cached": "Rutas selectivas orgánicas",
+          "format": "General"
+        },
+        "D38": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E38": {
+          "value": 5,
+          "cached": 5,
+          "format": "#,##0"
+        },
+        "F38": {
+          "value": "rutas",
+          "cached": "rutas",
+          "format": "General"
+        },
+        "G38": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H38": {
+          "value": "Primeros seis meses 2026",
+          "cached": "Primeros seis meses 2026",
+          "format": "General"
+        },
+        "J38": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A39": {
+          "value": "R38",
+          "cached": "R38",
+          "format": "General"
+        },
+        "B39": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C39": {
+          "value": "Rutas selectivas inorgánicas",
+          "cached": "Rutas selectivas inorgánicas",
+          "format": "General"
+        },
+        "D39": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "E39": {
+          "value": 11,
+          "cached": 11,
+          "format": "#,##0"
+        },
+        "F39": {
+          "value": "rutas",
+          "cached": "rutas",
+          "format": "General"
+        },
+        "G39": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H39": {
+          "value": "Primeros seis meses 2026",
+          "cached": "Primeros seis meses 2026",
+          "format": "General"
+        },
+        "J39": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        }
+      },
+      {
+        "A40": {
+          "value": "R39",
+          "cached": "R39",
+          "format": "General"
+        },
+        "B40": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C40": {
+          "value": "Presupuesto anual EDUCCA aprobado",
+          "cached": "Presupuesto anual EDUCCA aprobado",
+          "format": "General"
+        },
+        "D40": {
+          "value": "E26",
+          "cached": "E26",
+          "format": "General"
+        },
+        "E40": {
+          "value": 48110,
+          "cached": 48110,
+          "format": "#,##0.00"
+        },
+        "F40": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G40": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H40": {
+          "value": "Programación anual 2026",
+          "cached": "Programación anual 2026",
+          "format": "General"
+        },
+        "I40": {
+          "value": "No es gasto ejecutado ni presupuesto BI",
+          "cached": "No es gasto ejecutado ni presupuesto BI",
+          "format": "General"
+        },
+        "J40": {
+          "value": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "cached": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "format": "General"
+        }
+      },
+      {
+        "A41": {
+          "value": "R40",
+          "cached": "R40",
+          "format": "General"
+        },
+        "B41": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C41": {
+          "value": "Educación ambiental escolar",
+          "cached": "Educación ambiental escolar",
+          "format": "General"
+        },
+        "D41": {
+          "value": "E26",
+          "cached": "E26",
+          "format": "General"
+        },
+        "E41": {
+          "value": 20310,
+          "cached": 20310,
+          "format": "#,##0.00"
+        },
+        "F41": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G41": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H41": {
+          "value": "Programación anual 2026",
+          "cached": "Programación anual 2026",
+          "format": "General"
+        },
+        "J41": {
+          "value": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "cached": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "format": "General"
+        }
+      },
+      {
+        "A42": {
+          "value": "R41",
+          "cached": "R41",
+          "format": "General"
+        },
+        "B42": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "C42": {
+          "value": "Educación ambiental comunitaria",
+          "cached": "Educación ambiental comunitaria",
+          "format": "General"
+        },
+        "D42": {
+          "value": "E26",
+          "cached": "E26",
+          "format": "General"
+        },
+        "E42": {
+          "value": 27800,
+          "cached": 27800,
+          "format": "#,##0.00"
+        },
+        "F42": {
+          "value": "S/",
+          "cached": "S/",
+          "format": "General"
+        },
+        "G42": {
+          "value": "Exacto",
+          "cached": "Exacto",
+          "format": "General"
+        },
+        "H42": {
+          "value": "Programación anual 2026",
+          "cached": "Programación anual 2026",
+          "format": "General"
+        },
+        "J42": {
+          "value": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "cached": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "format": "General"
+        }
+      }
+    ]
+  },
+  "Rutas2024": {
+    "max_row": 12,
+    "max_column": 8,
+    "rows": [
+      {
+        "A1": {
+          "value": "Ruta",
+          "cached": "Ruta",
+          "format": "General"
+        },
+        "B1": {
+          "value": "Lugar",
+          "cached": "Lugar",
+          "format": "General"
+        },
+        "C1": {
+          "value": "Participantes registrados",
+          "cached": "Participantes registrados",
+          "format": "General"
+        },
+        "D1": {
+          "value": "Día",
+          "cached": "Día",
+          "format": "General"
+        },
+        "E1": {
+          "value": "Horario",
+          "cached": "Horario",
+          "format": "General"
+        },
+        "F1": {
+          "value": "Tipo de residuo",
+          "cached": "Tipo de residuo",
+          "format": "General"
+        },
+        "G1": {
+          "value": "Fuente",
+          "cached": "Fuente",
+          "format": "General"
+        },
+        "H1": {
+          "value": "Corte",
+          "cached": "Corte",
+          "format": "General"
+        }
+      },
+      {
+        "A2": {
+          "value": 1,
+          "cached": 1,
+          "format": "General"
+        },
+        "B2": {
+          "value": "Paucarbamba sectores 1 y 2",
+          "cached": "Paucarbamba sectores 1 y 2",
+          "format": "General"
+        },
+        "C2": {
+          "value": 205,
+          "cached": 205,
+          "format": "#,##0"
+        },
+        "D2": {
+          "value": "Lunes",
+          "cached": "Lunes",
+          "format": "General"
+        },
+        "E2": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F2": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G2": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H2": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A3": {
+          "value": 2,
+          "cached": 2,
+          "format": "General"
+        },
+        "B3": {
+          "value": "Paucarbamba sectores 3 y 4",
+          "cached": "Paucarbamba sectores 3 y 4",
+          "format": "General"
+        },
+        "C3": {
+          "value": 176,
+          "cached": 176,
+          "format": "#,##0"
+        },
+        "D3": {
+          "value": "Martes",
+          "cached": "Martes",
+          "format": "General"
+        },
+        "E3": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F3": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G3": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H3": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A4": {
+          "value": 3,
+          "cached": 3,
+          "format": "General"
+        },
+        "B4": {
+          "value": "FONAVI I, Paucarbambilla, Zona 0",
+          "cached": "FONAVI I, Paucarbambilla, Zona 0",
+          "format": "General"
+        },
+        "C4": {
+          "value": 154,
+          "cached": 154,
+          "format": "#,##0"
+        },
+        "D4": {
+          "value": "Jueves",
+          "cached": "Jueves",
+          "format": "General"
+        },
+        "E4": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F4": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G4": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H4": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A5": {
+          "value": 4,
+          "cached": 4,
+          "format": "General"
+        },
+        "B5": {
+          "value": "San Luis sectores 1, 2 y 3",
+          "cached": "San Luis sectores 1, 2 y 3",
+          "format": "General"
+        },
+        "C5": {
+          "value": 45,
+          "cached": 45,
+          "format": "#,##0"
+        },
+        "D5": {
+          "value": "Martes",
+          "cached": "Martes",
+          "format": "General"
+        },
+        "E5": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F5": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G5": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H5": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A6": {
+          "value": 5,
+          "cached": 5,
+          "format": "General"
+        },
+        "B6": {
+          "value": "San Luis sectores 4 y 5",
+          "cached": "San Luis sectores 4 y 5",
+          "format": "General"
+        },
+        "C6": {
+          "value": 58,
+          "cached": 58,
+          "format": "#,##0"
+        },
+        "D6": {
+          "value": "Miércoles",
+          "cached": "Miércoles",
+          "format": "General"
+        },
+        "E6": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F6": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G6": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H6": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A7": {
+          "value": 6,
+          "cached": 6,
+          "format": "General"
+        },
+        "B7": {
+          "value": "Llicua",
+          "cached": "Llicua",
+          "format": "General"
+        },
+        "C7": {
+          "value": 55,
+          "cached": 55,
+          "format": "#,##0"
+        },
+        "D7": {
+          "value": "Miércoles",
+          "cached": "Miércoles",
+          "format": "General"
+        },
+        "E7": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F7": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G7": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H7": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A8": {
+          "value": 7,
+          "cached": 7,
+          "format": "General"
+        },
+        "B8": {
+          "value": "Los Eucaliptos, Portales, Jazmines y Cedros",
+          "cached": "Los Eucaliptos, Portales, Jazmines y Cedros",
+          "format": "General"
+        },
+        "C8": {
+          "value": 196,
+          "cached": 196,
+          "format": "#,##0"
+        },
+        "D8": {
+          "value": "Lunes",
+          "cached": "Lunes",
+          "format": "General"
+        },
+        "E8": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F8": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G8": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H8": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A9": {
+          "value": 8,
+          "cached": 8,
+          "format": "General"
+        },
+        "B9": {
+          "value": "Huayopampa, Portalitos, FONAVI III",
+          "cached": "Huayopampa, Portalitos, FONAVI III",
+          "format": "General"
+        },
+        "C9": {
+          "value": 224,
+          "cached": 224,
+          "format": "#,##0"
+        },
+        "D9": {
+          "value": "Viernes",
+          "cached": "Viernes",
+          "format": "General"
+        },
+        "E9": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F9": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G9": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H9": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A10": {
+          "value": 9,
+          "cached": 9,
+          "format": "General"
+        },
+        "B10": {
+          "value": "Esperanza Baja",
+          "cached": "Esperanza Baja",
+          "format": "General"
+        },
+        "C10": {
+          "value": 102,
+          "cached": 102,
+          "format": "#,##0"
+        },
+        "D10": {
+          "value": "Viernes",
+          "cached": "Viernes",
+          "format": "General"
+        },
+        "E10": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F10": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G10": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H10": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A11": {
+          "value": 10,
+          "cached": 10,
+          "format": "General"
+        },
+        "B11": {
+          "value": "Esperanza Alta",
+          "cached": "Esperanza Alta",
+          "format": "General"
+        },
+        "C11": {
+          "value": 52,
+          "cached": 52,
+          "format": "#,##0"
+        },
+        "D11": {
+          "value": "Sábado",
+          "cached": "Sábado",
+          "format": "General"
+        },
+        "E11": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F11": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G11": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H11": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      },
+      {
+        "A12": {
+          "value": 11,
+          "cached": 11,
+          "format": "General"
+        },
+        "B12": {
+          "value": "Colpa Alta, Matibamba",
+          "cached": "Colpa Alta, Matibamba",
+          "format": "General"
+        },
+        "C12": {
+          "value": 41,
+          "cached": 41,
+          "format": "#,##0"
+        },
+        "D12": {
+          "value": "Jueves",
+          "cached": "Jueves",
+          "format": "General"
+        },
+        "E12": {
+          "value": "06:00–14:00",
+          "cached": "06:00–14:00",
+          "format": "General"
+        },
+        "F12": {
+          "value": "Inorgánico",
+          "cached": "Inorgánico",
+          "format": "General"
+        },
+        "G12": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "H12": {
+          "value": "Corte parcial 2024",
+          "cached": "Corte parcial 2024",
+          "format": "General"
+        }
+      }
+    ]
+  },
+  "Procedencia": {
+    "max_row": 8,
+    "max_column": 8,
+    "rows": [
+      {
+        "A1": {
+          "value": "Fuente",
+          "cached": "Fuente",
+          "format": "General"
+        },
+        "B1": {
+          "value": "Documento",
+          "cached": "Documento",
+          "format": "General"
+        },
+        "C1": {
+          "value": "Año",
+          "cached": "Año",
+          "format": "General"
+        },
+        "D1": {
+          "value": "Localizador",
+          "cached": "Localizador",
+          "format": "General"
+        },
+        "E1": {
+          "value": "Período declarado",
+          "cached": "Período declarado",
+          "format": "General"
+        },
+        "F1": {
+          "value": "URL institucional",
+          "cached": "URL institucional",
+          "format": "General"
+        },
+        "G1": {
+          "value": "Acceso y alcance",
+          "cached": "Acceso y alcance",
+          "format": "General"
+        },
+        "H1": {
+          "value": "Fecha de consulta",
+          "cached": "Fecha de consulta",
+          "format": "General"
+        }
+      },
+      {
+        "A2": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "B2": {
+          "value": "Resumen ejecutivo de la II audiencia pública de rendición de cuentas 2024",
+          "cached": "Resumen ejecutivo de la II audiencia pública de rendición de cuentas 2024",
+          "format": "General"
+        },
+        "C2": {
+          "value": 2024,
+          "cached": 2024,
+          "format": "General"
+        },
+        "D2": {
+          "value": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "cached": "PDF pp. 28–29, secciones 7.1.1–7.1.3",
+          "format": "General"
+        },
+        "E2": {
+          "value": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "cached": "Corte parcial de rendición 2024; fecha exacta del cuadro no declarada",
+          "format": "General"
+        },
+        "F2": {
+          "value": "https://muniamarilis.gob.pe/wp-content/uploads/2024/09/Resumen-Ejecutivo.pdf",
+          "cached": "https://muniamarilis.gob.pe/wp-content/uploads/2024/09/Resumen-Ejecutivo.pdf",
+          "format": "General"
+        },
+        "G2": {
+          "value": "PDF descargado y tabla de imagen verificada visualmente",
+          "cached": "PDF descargado y tabla de imagen verificada visualmente",
+          "format": "General"
+        },
+        "H2": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      },
+      {
+        "A3": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "B3": {
+          "value": "Resumen ejecutivo 2025 segunda audiencia",
+          "cached": "Resumen ejecutivo 2025 segunda audiencia",
+          "format": "General"
+        },
+        "C3": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "D3": {
+          "value": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "cached": "PDF pp. 5, 20 y 51–53; apartados 7.1.3–7.1.6",
+          "format": "General"
+        },
+        "E3": {
+          "value": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "cached": "Presentación enero–junio 2025; EDUCCA mayo–agosto; masas de valorización sin desglose mensual",
+          "format": "General"
+        },
+        "F3": {
+          "value": "https://muniamarilis.gob.pe/wp-content/uploads/2025/09/Resumen-ejecutivo-2025-segunda-audiencia.pdf",
+          "cached": "https://muniamarilis.gob.pe/wp-content/uploads/2025/09/Resumen-ejecutivo-2025-segunda-audiencia.pdf",
+          "format": "General"
+        },
+        "G3": {
+          "value": "PDF descargado; texto y tablas revisados",
+          "cached": "PDF descargado; texto y tablas revisados",
+          "format": "General"
+        },
+        "H3": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      },
+      {
+        "A4": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "B4": {
+          "value": "Resumen ejecutivo publicado en septiembre de 2026",
+          "cached": "Resumen ejecutivo publicado en septiembre de 2026",
+          "format": "General"
+        },
+        "C4": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "D4": {
+          "value": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "cached": "PDF pp. 103–106; p. 104 explicita primer semestre 2026",
+          "format": "General"
+        },
+        "E4": {
+          "value": "Primer semestre 2026 para servicio; primeros seis meses para RECICLA",
+          "cached": "Primer semestre 2026 para servicio; primeros seis meses para RECICLA",
+          "format": "General"
+        },
+        "F4": {
+          "value": "https://muniamarilis.gob.pe/wp-content/uploads/2026/09/RESUMEN-EJECUTIVO.pdf",
+          "cached": "https://muniamarilis.gob.pe/wp-content/uploads/2026/09/RESUMEN-EJECUTIVO.pdf",
+          "format": "General"
+        },
+        "G4": {
+          "value": "PDF descargado; pp. 104 y 106 verificadas visualmente; contiene rótulos gráficos heredados de 2025",
+          "cached": "PDF descargado; pp. 104 y 106 verificadas visualmente; contiene rótulos gráficos heredados de 2025",
+          "format": "General"
+        },
+        "H4": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      },
+      {
+        "A5": {
+          "value": "E26",
+          "cached": "E26",
+          "format": "General"
+        },
+        "B5": {
+          "value": "Plan de Trabajo 2026 del Programa Municipal EDUCCA Amarilis",
+          "cached": "Plan de Trabajo 2026 del Programa Municipal EDUCCA Amarilis",
+          "format": "General"
+        },
+        "C5": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "D5": {
+          "value": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "cached": "Resolución 024-2026-MDA/GM, arts. 1–2; apartado 3 del plan",
+          "format": "General"
+        },
+        "E5": {
+          "value": "Programación anual 2026, aprobada el 29 de enero de 2026",
+          "cached": "Programación anual 2026, aprobada el 29 de enero de 2026",
+          "format": "General"
+        },
+        "F5": {
+          "value": "https://sinia.minam.gob.pe/normas/plan-trabajo-2026-programa-municipal-educca-amarilis",
+          "cached": "https://sinia.minam.gob.pe/normas/plan-trabajo-2026-programa-municipal-educca-amarilis",
+          "format": "General"
+        },
+        "G5": {
+          "value": "Contenido del PDF recuperado en consulta web; descarga local respondió 403",
+          "cached": "Contenido del PDF recuperado en consulta web; descarga local respondió 403",
+          "format": "General"
+        },
+        "H5": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      },
+      {
+        "A6": {
+          "value": "DA26",
+          "cached": "DA26",
+          "format": "General"
+        },
+        "B6": {
+          "value": "Valorización de residuos sólidos a nivel distrital MINAM",
+          "cached": "Valorización de residuos sólidos a nivel distrital MINAM",
+          "format": "General"
+        },
+        "C6": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "D6": {
+          "value": "Catálogo y recursos orgánicos e inorgánicos 2019–2024, actualización 10 de marzo de 2026",
+          "cached": "Catálogo y recursos orgánicos e inorgánicos 2019–2024, actualización 10 de marzo de 2026",
+          "format": "General"
+        },
+        "E6": {
+          "value": "Años declarados del conjunto 2019–2024; no extraídos para Amarilis",
+          "cached": "Años declarados del conjunto 2019–2024; no extraídos para Amarilis",
+          "format": "General"
+        },
+        "F6": {
+          "value": "https://www.datosabiertos.gob.pe/dataset/valorizaci%C3%B3n-de-residuos-s%C3%B3lidos-nivel-distrital-ministerio-del-ambiente-minam",
+          "cached": "https://www.datosabiertos.gob.pe/dataset/valorizaci%C3%B3n-de-residuos-s%C3%B3lidos-nivel-distrital-ministerio-del-ambiente-minam",
+          "format": "General"
+        },
+        "G6": {
+          "value": "Catálogo identificado; recursos respondieron 403/502. Sin registros incorporados",
+          "cached": "Catálogo identificado; recursos respondieron 403/502. Sin registros incorporados",
+          "format": "General"
+        },
+        "H6": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      },
+      {
+        "A7": {
+          "value": "C25",
+          "cached": "C25",
+          "format": "General"
+        },
+        "B7": {
+          "value": "Segundo reporte de seguimiento de plan de acción anual 2025",
+          "cached": "Segundo reporte de seguimiento de plan de acción anual 2025",
+          "format": "General"
+        },
+        "C7": {
+          "value": 2025,
+          "cached": 2025,
+          "format": "General"
+        },
+        "D7": {
+          "value": "Documento de control interno",
+          "cached": "Documento de control interno",
+          "format": "General"
+        },
+        "E7": {
+          "value": "Evaluación 2025",
+          "cached": "Evaluación 2025",
+          "format": "General"
+        },
+        "F7": {
+          "value": "https://muniamarilis.gob.pe/wp-content/uploads/2026/02/SEGUNDO-REPORTE-DE-SEGUIMIENTO-DE-PLAN-DE-ACCION-ANUAL-2025.pdf",
+          "cached": "https://muniamarilis.gob.pe/wp-content/uploads/2026/02/SEGUNDO-REPORTE-DE-SEGUIMIENTO-DE-PLAN-DE-ACCION-ANUAL-2025.pdf",
+          "format": "General"
+        },
+        "G7": {
+          "value": "PDF descargado; no se extrajeron masas de residuos",
+          "cached": "PDF descargado; no se extrajeron masas de residuos",
+          "format": "General"
+        },
+        "H7": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      },
+      {
+        "A8": {
+          "value": "C26",
+          "cached": "C26",
+          "format": "General"
+        },
+        "B8": {
+          "value": "Primer reporte de seguimiento plan anual de control 2026",
+          "cached": "Primer reporte de seguimiento plan anual de control 2026",
+          "format": "General"
+        },
+        "C8": {
+          "value": 2026,
+          "cached": 2026,
+          "format": "General"
+        },
+        "D8": {
+          "value": "Documento de control interno",
+          "cached": "Documento de control interno",
+          "format": "General"
+        },
+        "E8": {
+          "value": "Primer semestre 2026",
+          "cached": "Primer semestre 2026",
+          "format": "General"
+        },
+        "F8": {
+          "value": "https://muniamarilis.gob.pe/wp-content/uploads/2026/08/PRIMER-REPORTE-DE-SEGUIMIENTO-PLAN-ANUAL-DE-CONTROL-2026.pdf",
+          "cached": "https://muniamarilis.gob.pe/wp-content/uploads/2026/08/PRIMER-REPORTE-DE-SEGUIMIENTO-PLAN-ANUAL-DE-CONTROL-2026.pdf",
+          "format": "General"
+        },
+        "G8": {
+          "value": "PDF descargado; no equivale a seguimiento POI/PEI ni aporta serie de valorización",
+          "cached": "PDF descargado; no equivale a seguimiento POI/PEI ni aporta serie de valorización",
+          "format": "General"
+        },
+        "H8": {
+          "value": "2026-11-07T00:00:00",
+          "cached": "2026-11-07T00:00:00",
+          "format": "yyyy-mm-dd"
+        }
+      }
+    ]
+  },
+  "Observaciones": {
+    "max_row": 10,
+    "max_column": 5,
+    "rows": [
+      {
+        "A1": {
+          "value": "Caso",
+          "cached": "Caso",
+          "format": "General"
+        },
+        "B1": {
+          "value": "Fuente",
+          "cached": "Fuente",
+          "format": "General"
+        },
+        "C1": {
+          "value": "Hallazgo",
+          "cached": "Hallazgo",
+          "format": "General"
+        },
+        "D1": {
+          "value": "Tratamiento analítico",
+          "cached": "Tratamiento analítico",
+          "format": "General"
+        },
+        "E1": {
+          "value": "Dato requerido",
+          "cached": "Dato requerido",
+          "format": "General"
+        }
+      },
+      {
+        "A2": {
+          "value": "Q01",
+          "cached": "Q01",
+          "format": "General"
+        },
+        "B2": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "C2": {
+          "value": "Logros repetidos en la sección 7.1.1",
+          "cached": "Logros repetidos en la sección 7.1.1",
+          "format": "General"
+        },
+        "D2": {
+          "value": "Registrar una sola vez; no sumar adquisiciones repetidas",
+          "cached": "Registrar una sola vez; no sumar adquisiciones repetidas",
+          "format": "General"
+        },
+        "E2": {
+          "value": "Acta o inventario si se requiere flota total",
+          "cached": "Acta o inventario si se requiere flota total",
+          "format": "General"
+        }
+      },
+      {
+        "A3": {
+          "value": "Q02",
+          "cached": "Q02",
+          "format": "General"
+        },
+        "B3": {
+          "value": "M24",
+          "cached": "M24",
+          "format": "General"
+        },
+        "C3": {
+          "value": "EDUCCA publica 93,14 %; importes dan 93,16 %",
+          "cached": "EDUCCA publica 93,14 %; importes dan 93,16 %",
+          "format": "General"
+        },
+        "D3": {
+          "value": "Conservar el porcentaje publicado y el recalculado",
+          "cached": "Conservar el porcentaje publicado y el recalculado",
+          "format": "General"
+        },
+        "E3": {
+          "value": "Aclaración o rectificación municipal",
+          "cached": "Aclaración o rectificación municipal",
+          "format": "General"
+        }
+      },
+      {
+        "A4": {
+          "value": "Q03",
+          "cached": "Q03",
+          "format": "General"
+        },
+        "B4": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "C4": {
+          "value": "1 221,84 t figura como mensual y como masa del período",
+          "cached": "1 221,84 t figura como mensual y como masa del período",
+          "format": "General"
+        },
+        "D4": {
+          "value": "No anualizar ni usar como denominador de valorización",
+          "cached": "No anualizar ni usar como denominador de valorización",
+          "format": "General"
+        },
+        "E4": {
+          "value": "Masa mensual y fecha de cierre",
+          "cached": "Masa mensual y fecha de cierre",
+          "format": "General"
+        }
+      },
+      {
+        "A5": {
+          "value": "Q04",
+          "cached": "Q04",
+          "format": "General"
+        },
+        "B5": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "C5": {
+          "value": "51,61 %, 2,24 %, 5,25 % y 4,92 % sin denominadores homologados",
+          "cached": "51,61 %, 2,24 %, 5,25 % y 4,92 % sin denominadores homologados",
+          "format": "General"
+        },
+        "D5": {
+          "value": "No recomputar tasas ni sumarlas",
+          "cached": "No recomputar tasas ni sumarlas",
+          "format": "General"
+        },
+        "E5": {
+          "value": "Numeradores, denominadores y universos",
+          "cached": "Numeradores, denominadores y universos",
+          "format": "General"
+        }
+      },
+      {
+        "A6": {
+          "value": "Q05",
+          "cached": "Q05",
+          "format": "General"
+        },
+        "B6": {
+          "value": "M25",
+          "cached": "M25",
+          "format": "General"
+        },
+        "C6": {
+          "value": "Las subfilas de participantes EDUCCA suman 1 136; total declarado 1 585",
+          "cached": "Las subfilas de participantes EDUCCA suman 1 136; total declarado 1 585",
+          "format": "General"
+        },
+        "D6": {
+          "value": "No asignar participantes faltantes a actividades",
+          "cached": "No asignar participantes faltantes a actividades",
+          "format": "General"
+        },
+        "E6": {
+          "value": "Conciliación del detalle y total",
+          "cached": "Conciliación del detalle y total",
+          "format": "General"
+        }
+      },
+      {
+        "A7": {
+          "value": "Q06",
+          "cached": "Q06",
+          "format": "General"
+        },
+        "B7": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "C7": {
+          "value": "100,216 t/día y 1 820,86 t/mes requieren base temporal",
+          "cached": "100,216 t/día y 1 820,86 t/mes requieren base temporal",
+          "format": "General"
+        },
+        "D7": {
+          "value": "Usar cociente solo como diagnóstico; no estimar total anual",
+          "cached": "Usar cociente solo como diagnóstico; no estimar total anual",
+          "format": "General"
+        },
+        "E7": {
+          "value": "Pesajes, días efectivos y alcance",
+          "cached": "Pesajes, días efectivos y alcance",
+          "format": "General"
+        }
+      },
+      {
+        "A8": {
+          "value": "Q07",
+          "cached": "Q07",
+          "format": "General"
+        },
+        "B8": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "C8": {
+          "value": "Texto usa más de para masas selectivas; gráfico incluye julio",
+          "cached": "Texto usa más de para masas selectivas; gráfico incluye julio",
+          "format": "General"
+        },
+        "D8": {
+          "value": "Conservar operador > y corte textual de seis meses",
+          "cached": "Conservar operador > y corte textual de seis meses",
+          "format": "General"
+        },
+        "E8": {
+          "value": "Serie mensual validada y destino del material",
+          "cached": "Serie mensual validada y destino del material",
+          "format": "General"
+        }
+      },
+      {
+        "A9": {
+          "value": "Q08",
+          "cached": "Q08",
+          "format": "General"
+        },
+        "B9": {
+          "value": "DA26",
+          "cached": "DA26",
+          "format": "General"
+        },
+        "C9": {
+          "value": "Descarga del conjunto no accesible al consultar",
+          "cached": "Descarga del conjunto no accesible al consultar",
+          "format": "General"
+        },
+        "D9": {
+          "value": "Excluir cifras del catálogo del análisis local",
+          "cached": "Excluir cifras del catálogo del análisis local",
+          "format": "General"
+        },
+        "E9": {
+          "value": "Archivo descargable y diccionario vigente",
+          "cached": "Archivo descargable y diccionario vigente",
+          "format": "General"
+        }
+      },
+      {
+        "A10": {
+          "value": "Q09",
+          "cached": "Q09",
+          "format": "General"
+        },
+        "B10": {
+          "value": "M26",
+          "cached": "M26",
+          "format": "General"
+        },
+        "C10": {
+          "value": "Rótulos de 2025 junto a sección que explicita primer semestre 2026",
+          "cached": "Rótulos de 2025 junto a sección que explicita primer semestre 2026",
+          "format": "General"
+        },
+        "D10": {
+          "value": "Conservar referencia de publicación y período del contenido",
+          "cached": "Conservar referencia de publicación y período del contenido",
+          "format": "General"
+        },
+        "E10": {
+          "value": "Confirmación de versión del documento",
+          "cached": "Confirmación de versión del documento",
+          "format": "General"
+        }
+      }
+    ]
+  }
+}

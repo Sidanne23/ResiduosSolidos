@@ -1,0 +1,8 @@
+@extends('layouts.app')
+@section('title','Registros documentales')
+@section('description','Valores publicados, con su unidad, operador, fuente y período original.')
+@section('actions')<a class="button secondary" href="{{ route('reports.export',['format'=>'xlsx',...$filters]) }}">↓ Exportar selección</a>@endsection
+@section('content')
+@include('partials.filters')
+<section class="panel"><div class="panel-heading"><h2>Registro de evidencia</h2><span class="badge published">{{ $records->total() }} registros en la selección</span></div><div class="table-wrap"><table><thead><tr><th>Código</th><th>Indicador publicado</th><th>Valor y unidad</th><th>Fuente y período</th><th>Condición de uso</th><th></th></tr></thead><tbody>@forelse($records as $r)<tr><td><span class="record-code">{{ $r->code }}</span></td><td><strong>{{ $r->label }}</strong><small>{{ $r->process }}@if($r->waste_type) · {{ $r->waste_type }}@endif</small></td><td class="numeric">{{ $r->operator==='>' ? '> ' : '' }}{{ \App\Services\IndicatorEngine::display($r->value,$r->unit) }}<small>{{ $r->unit }} {{ $r->qualifier }}</small></td><td><span class="source-tag">{{ $r->source->code }}</span><small>{{ $r->period }}</small></td><td>@if(count($r->restrictions))<span class="badge warning">Con restricción</span><small>{{ $r->restrictions[0] }}</small>@else<span class="badge published">Publicado</span><small>Conservar corte y concepto</small>@endif</td><td><a class="row-link" href="{{ route('records.show',$r) }}" aria-label="Ver trazabilidad {{ $r->code }}">↗</a></td></tr>@empty<tr><td colspan="6" class="empty-state">Dato no disponible con estos filtros.</td></tr>@endforelse</tbody></table></div><div class="pagination">{{ $records->links() }}</div></section>
+@endsection

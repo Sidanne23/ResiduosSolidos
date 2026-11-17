@@ -1,0 +1,155 @@
+{
+  "method": "Decimal independiente; comparación con caché, sin recalcular ni modificar Excel",
+  "tolerance": "1e-10 por representación binaria del caché, no umbral de calidad municipal",
+  "records": 41,
+  "route_rows": 11,
+  "sources": 7,
+  "observations": 9,
+  "formula_errors_cached": [],
+  "checks": [
+    {
+      "cell": "B6",
+      "formula": "=SUM('Rutas2024'!C2:C12)",
+      "recomputed": "1308",
+      "cached": 1308,
+      "absolute_difference": "0",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B7",
+      "formula": "=('Rutas2024'!C2+'Rutas2024'!C9)/B6",
+      "recomputed": "0.3279816513761467889908256880733944954128",
+      "cached": 0.32798165137614677,
+      "absolute_difference": "1.89908256880733944954128E-17",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B8",
+      "formula": "='Registros'!E10/'Registros'!E9",
+      "recomputed": "0.6284663935762615146327545447134588734002",
+      "cached": 0.6284663935762616,
+      "absolute_difference": "8.53672454552865411265998E-17",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B9",
+      "formula": "='Registros'!E9-'Registros'!E10",
+      "recomputed": "1458432.88",
+      "cached": 1458432.88,
+      "absolute_difference": "0.00",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B10",
+      "formula": "='Registros'!E7/'Registros'!E6",
+      "recomputed": "0.6926231927264681782982800549752405166773",
+      "cached": 0.6926231927264681,
+      "absolute_difference": "7.82982800549752405166773E-17",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B11",
+      "formula": "='Registros'!E13/'Registros'!E12",
+      "recomputed": "0.9315623041103250649234351213396615026417",
+      "cached": 0.9315623041103251,
+      "absolute_difference": "3.50765648786603384973583E-17",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B12",
+      "formula": "=(B11-'Registros'!E14/100)*100",
+      "recomputed": "0.0162304110325064923435121339661502641700",
+      "cached": 0.01623041103251399,
+      "absolute_difference": "7.4976564878660338497358300E-15",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B13",
+      "formula": "='Registros'!E23/'Registros'!E22",
+      "recomputed": "0.4814866206542690758911034417428420200143",
+      "cached": 0.48148662065426906,
+      "absolute_difference": "1.58911034417428420200143E-17",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B14",
+      "formula": "='Registros'!E22-'Registros'!E23",
+      "recomputed": "2720410",
+      "cached": 2720410,
+      "absolute_difference": "0",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B15",
+      "formula": "='Registros'!E18+'Registros'!E19",
+      "recomputed": "615.9",
+      "cached": 615.9,
+      "absolute_difference": "0.0",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B16",
+      "formula": "='Registros'!E36+'Registros'!E37",
+      "recomputed": "262.27",
+      "cached": 262.27,
+      "absolute_difference": "0.00",
+      "operator": ">",
+      "passed": true
+    },
+    {
+      "cell": "B17",
+      "formula": "='Registros'!E21/'Registros'!E20",
+      "recomputed": "0",
+      "cached": 0,
+      "absolute_difference": "0",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B18",
+      "formula": "='Registros'!E29+'Registros'!E30+'Registros'!E31",
+      "recomputed": "13",
+      "cached": 13,
+      "absolute_difference": "0",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B19",
+      "formula": "='Registros'!E35/'Registros'!E34",
+      "recomputed": "18.16935419493893190708070567574040073441",
+      "cached": 18.169354194938933,
+      "absolute_difference": "1.09291929432425959926559E-15",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B20",
+      "formula": "='Registros'!E41/'Registros'!E40",
+      "recomputed": "0.4221575556017459987528580336728330908335",
+      "cached": 0.422157555601746,
+      "absolute_difference": "1.2471419663271669091665E-18",
+      "operator": "=",
+      "passed": true
+    },
+    {
+      "cell": "B21",
+      "formula": "='Registros'!E42/'Registros'!E40",
+      "recomputed": "0.5778424443982540012471419663271669091665",
+      "cached": 0.577842444398254,
+      "absolute_difference": "1.2471419663271669091665E-18",
+      "operator": "=",
+      "passed": true
+    }
+  ]
+}

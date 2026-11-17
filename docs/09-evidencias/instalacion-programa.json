@@ -1,0 +1,16 @@
+{
+    "php": "8.4.27",
+    "laravel": "13.42.0",
+    "database_driver": "mysql",
+    "database_name": "amarilis_bi",
+    "mysql_server": "8.0.30",
+    "counts": {
+        "records": 41,
+        "routes": 11,
+        "sources": 7,
+        "issues": 9,
+        "files": 4,
+        "users": 0
+    },
+    "original_files_verified": true
+}
